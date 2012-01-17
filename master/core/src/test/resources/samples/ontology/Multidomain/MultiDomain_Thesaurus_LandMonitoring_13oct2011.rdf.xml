@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://thesauri.esa.int/MultiDomain_Thesaurus#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    
+<!-- ************** Level 0 ************** -->
+
+	<skos:Concept rdf:about="Info_Domain">
+		<skos:prefLabel xml:lang="en">Info Domain</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Application Domain</skos:altLabel>		
+		<skos:narrower rdf:resource="Land_Monitoring"/>
+	</skos:Concept>
+
+<!-- ************** Level 1 ************** -->
+
+	<skos:Concept rdf:about="Land_Monitoring">
+		<skos:prefLabel xml:lang="en">Land Monitoring</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Land monitoring includes all the services and activities in order to chek status and make decisions in the fields of agriculture, water quality, soil protection, forest monitoring, urban development, biodiversity, etc.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		Tailored DAP for OTE (modified)
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Info_Domain"/>
+		<skos:narrower rdf:resource="Agriculture"/>
+	</skos:Concept>
+	
+<!-- ************** Level 2 ************** -->
+
+	<skos:Concept rdf:about="Agriculture">
+		<skos:prefLabel xml:lang="en">Agriculture</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Agriculture refers to the production of food and goods through farming and forestry.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Agriculture#Etymology
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		pesticide, groundwater, food, crop, cultivation, fibers, fuels, raw materials, pharmaceuticals, illegal drugs, arable land
+		</skos:note>
+		<skos:broader rdf:resource="Land_Monitoring"/>
+		<skos:narrower rdf:resource="Water_Use"/>
+		<skos:narrower rdf:resource="Soil"/>
+		<skos:narrower rdf:resource="Land_Surface_Temperature"/>
+		<skos:narrower rdf:resource="Cloud"/>
+		<skos:narrower rdf:resource="Surface_Water"/>
+		<skos:narrower rdf:resource="Land_Use"/>
+	</skos:Concept>
+	
+	<skos:Concept rdf:about="Climate">
+		<skos:prefLabel xml:lang="en">Climate</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Climate encompasses the temperatures, humidity, rainfall, atmospheric particle count and numerous other meteorogical factors in a given region over long periods of time.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Climate
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		temperature, weather
+		</skos:note>
+		<skos:broader rdf:resource="Land_Monitoring"/>
+		<skos:narrower rdf:resource="Weather"/>
+		<skos:narrower rdf:resource="Bioclimatology"/>
+		<skos:narrower rdf:resource="Solar_Radiation"/>
+		<skos:narrower rdf:resource="Climate_Change"/>
+		<skos:narrower rdf:resource="Fire_Emission"/>
+	</skos:Concept>
+	
+	<skos:Concept rdf:about="Topography">
+		<skos:prefLabel xml:lang="en">Topography</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Topography is the study of Earth's surface features; it is concerned with local detail in general, including not only relief but also vegetative and human-made features.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Topography
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		earth surface, relief, land use
+		</skos:note>
+		<skos:broader rdf:resource="Land_Monitoring"/>
+		<skos:narrower rdf:resource="Land_Cover"/>
+		<skos:narrower rdf:resource="Digital_Elevation_Model"/>
+		<skos:narrower rdf:resource="Surface_Water"/>
+	</skos:Concept>
+	
+	<skos:Concept rdf:about="Urban_And_Industry">
+		<skos:prefLabel xml:lang="en">Urban And Industry</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Mapping for city planning, at local scale, construction, noise modelling, and mining; it is also helpful in support of industrial development from civil engineering to oil prospecting, and in the monitoring of urban change and population mapping for planning and control purposes.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+        http://earth.esa.int/object/index.cfm?fobjectid=3977&amp;sthid=31
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		urban monitoring, city, town, settlement, urbanization
+		</skos:note>
+		<skos:broader rdf:resource="Land_Monitoring"/>
+		<skos:narrower rdf:resource="Land_Use"/>
+	</skos:Concept>
+	
+	<skos:Concept rdf:about="Water_Management">
+		<skos:prefLabel xml:lang="en">Water Management</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Water Use</skos:altLabel>
+		<skos:altLabel xml:lang="en">Water Monitoring</skos:altLabel>
+		<skos:altLabel xml:lang="en">Water Usage</skos:altLabel>
+		<skos:altLabel xml:lang="en">Irrigation</skos:altLabel>
+		<skos:altLabel xml:lang="en">Farming</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Water management is the practice of planning, developing, distributing and optimum utilizing of water resources under defined water polices and regulations.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Water_management
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		water quality
+		</skos:note>
+		<skos:broader rdf:resource="Land_Monitoring"/>
+		<skos:narrower rdf:resource="Surface_Water"/>
+		<skos:narrower rdf:resource="Ground_Water"/>
+		<skos:narrower rdf:resource="Water_Use"/>
+	</skos:Concept>
+
+<!-- ************** Level 3 ************** -->
+
+	<skos:Concept rdf:about="Cloud">
+		<skos:prefLabel xml:lang="en">Cloud</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Data about cloud cover, height, speed and so on may be useful for weather monitoring and forecasting.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Cloud
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		cloud cover,cloud height,cloud base,cloud top,cloud speed,cloud direction
+		</skos:note>
+		<skos:broader rdf:resource="Agriculture"/>
+		<skos:broader rdf:resource="Meteorological_Data"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Land_Cover">
+		<skos:prefLabel xml:lang="en">Land Cover</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Land cover is a way of portraying the surface of the earth. Often this is done through a process of classification where regions of the earth are identified according to some of their more prominent, quantifiable attributes.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://glcf.umiacs.umd.edu/services/landcoverchange/
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		land use, land cover, land change, land change monitoring, land take
+		</skos:note>
+		<skos:broader rdf:resource="Topography"/>
+		<skos:broader rdf:resource="Land_Use"/>
+		<skos:narrower rdf:resource="Forest"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Digital_Elevation_Model">
+		<skos:prefLabel xml:lang="en">Digital Elevation Model</skos:prefLabel>
+		<skos:altLabel xml:lang="en">DEM</skos:altLabel>
+		<skos:altLabel xml:lang="en">Digital Terrain Model</skos:altLabel>
+		<skos:altLabel xml:lang="en">DTM</skos:altLabel>
+		<skos:altLabel xml:lang="en">Relief Map</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A digital elevation model (DEM) is a digital representation of ground surface topography or terrain. It is also widely known as a digital terrain model (DTM). DEMs are commonly built using remote sensing techniques, however, they may also be built from land surveying. DEMs are used often in geographic information systems, and are the most common basis for digitally-produced relief maps.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Digital_elevation_model
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Topography"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Land_Use">
+		<skos:prefLabel xml:lang="en">Land Use</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Land Cover</skos:altLabel>
+		<skos:altLabel xml:lang="en">Land Change</skos:altLabel>
+		<skos:altLabel xml:lang="en">Land Change Monitoring</skos:altLabel>
+		<skos:altLabel xml:lang="en">Land Take</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Land use is the human modification of natural environment or wilderness into built environment such as fields, pastures, and settlements. Land-use change, together with use of fossil fuels, are the major anthropogenic sources of carbon dioxide, a dominant greenhouse gas. It has also been defined as "the total of arrangements, activities, and inputs that people undertake in a certain land cover type".
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Land_use
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		urbanization
+		</skos:note>
+		<skos:broader rdf:resource="Urban_And_Industry"/>
+		<skos:broader rdf:resource="Agriculture"/>
+		<skos:narrower rdf:resource="Land_Cover"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Surface_Water">
+		<skos:prefLabel xml:lang="en">Surface Water</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Surface waters include rivers and lakes; their quality is defined by biological and chemical parameters.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eea.europa.eu/themes/water/status-and-monitoring/state-of-surface-waters
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		river, lake, inland water
+		</skos:note>
+		<skos:broader rdf:resource="Agriculture"/>
+		<skos:broader rdf:resource="Water_Management"/>
+		<skos:broader rdf:resource="Topography"/>
+		<skos:narrower rdf:resource="Water_Pollution_By_Hormones"/>
+		<skos:narrower rdf:resource="Water_Pollution_By_Oxygen_Consuming_Substances"/>
+		<skos:narrower rdf:resource="Water_Pollution_By_Triclosan"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Water_Use">
+		<skos:prefLabel xml:lang="en">Water Use</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Without quantitative knowledge of water balance and the performance of irrigation systems, the potential to improve them remains largely unknown. A major effort is required for understanding water systems and the implications of reallocation of water to increase efficiency of use. Full understanding of the processes, based on river basin data, is needed for devising adequate policies and management action.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.fao.org/ag/magazine/9901sp4.htm
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		irrigation, farming, water resources, water management
+		</skos:note>
+		<skos:broader rdf:resource="Water_Management"/>
+		<skos:broader rdf:resource="Agriculture"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Soil">
+		<skos:prefLabel xml:lang="en">Soil</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Soil Protection</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Soil is the naturally occurring, unconsolidated or loose covering on the Earth's surface. Soil is composed of particles of broken rock that have been altered by chemical and environmental processes including weathering and erosion. Soil is  a mixture of mineral and  organic constituents that are in solid, gaseous and aqueous states.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Soil
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		ground water, agriculture, food
+		</skos:note>
+		<skos:broader rdf:resource="Agriculture"/>
+		<skos:narrower rdf:resource="Ground_Water"/>
+		<skos:narrower rdf:resource="Soil_Erosion"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Ground_Water">
+		<skos:prefLabel xml:lang="en">Ground Water</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The water that fills the empty spaces and cracks in the soil is called ground water.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://pubs.usgs.gov/of/1993/ofr93-643/
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		inland water, soil, agriculture
+		</skos:note>
+		<skos:broader rdf:resource="Soil"/>
+		<skos:broader rdf:resource="Water_Management"/>
+		<skos:narrower rdf:resource="Water_Pollution_By_Metals"/>
+		<skos:narrower rdf:resource="Water_Pollution_By_Nitrates"/>
+		<skos:narrower rdf:resource="Water_Pollution_By_Organic_Micropollutants"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Land_Surface_Temperature">
+		<skos:prefLabel xml:lang="en">Land Surface Temperature</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Earth Temperature</skos:altLabel>
+		<skos:definition xml:lang="en">
+		It is the temperature of the land surface i.e. kinetic temperature of the Earth surface.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		Satellite Remote Sensing and GIS applications in Agricultural Meteorology, Proceedings of the Training Workshop 7-11 July, 2003, Dehra Dun, India, World Meteorological Organisation
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		temperature
+		</skos:note>
+		<skos:broader rdf:resource="Agriculture"/>
+		<skos:broader rdf:resource="Global_Temperature"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Weather">
+		<skos:prefLabel xml:lang="en">Weather</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The weather is a set of all the phenomena occurring in a given atmosphere at a given time. Weather phenomena lie in the hydrosphere and troposphere. Weather refers to current activity, as opposed to the term climate, which refers to the average atmospheric conditions over longer periods of time.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Weather
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		climate, atmosphere
+		</skos:note>
+		<skos:broader rdf:resource="Climate"/>
+		<skos:narrower rdf:resource="Meteorological_Data"/>
+		<skos:narrower rdf:resource="Drought"/>
+		<skos:narrower rdf:resource="Global_Temperature"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Bioclimatology">
+		<skos:prefLabel xml:lang="en">Bioclimatology</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The study of climate in relation to fauna and flora.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept?cp=818&amp;langcode=en&amp;ns=1
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Climate"/>
+		<skos:narrower rdf:resource="Pollen"/>
+		<skos:narrower rdf:resource="Solar_UV_Radiation"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Solar_Radiation">
+		<skos:prefLabel xml:lang="en">Solar Radiation</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The electromagnetic radiation and particles emitted by the sun.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept?cp=7912&amp;langcode=en&amp;ns=1
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Climate"/>
+		<skos:narrower rdf:resource="Solar_UV_Radiation"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Climate_Change">
+		<skos:prefLabel xml:lang="en">Climate Change</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Climate change is one of our greatest environmental, social and economic threats. The warming of the climate system is unequivocal, says the Intergovernmental Panel on Climate Change (IPCC). Observations show increases in global average air and ocean temperatures, widespread melting of snow and ice, and rising global mean sea level.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eea.europa.eu/themes/climate
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		global warming, greenhouse effect, radiative forcing
+		</skos:note>
+		<skos:broader rdf:resource="Climate"/>
+		<skos:narrower rdf:resource="Global_Temperature"/>
+		<skos:narrower rdf:resource="Ice_Change_Detection"/>
+		<skos:narrower rdf:resource="Ocean_Level"/>
+		<skos:narrower rdf:resource="Greenhouse_Effect"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Fire_Emission">
+		<skos:prefLabel xml:lang="en">Fire Emission</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Global Fire Emission</skos:altLabel> <!-- as many as needed -->
+		<skos:definition xml:lang="en">
+		Emissions of gases and particulate matter originated from the combustion of wildfires that consume biomasses.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.gmes-atmosphere.eu/services/gac/fire/
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Climate"/>
+		<skos:narrower rdf:resource="Aerosol"/>
+		<skos:narrower rdf:resource="Carbon_Monoxide"/>
+		<skos:narrower rdf:resource="Formaldehyde"/>
+		<skos:narrower rdf:resource="Nitrogen_Oxides"/>
+	</skos:Concept>
+
+<!-- ************** Level 4 ************** -->
+
+	<skos:Concept rdf:about="Forest">
+		<skos:prefLabel xml:lang="en">Forest</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Vegetation</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A forest is an area with a high density of trees. These plant communities cover approximately 9.4% of the Earth's surface (or 30% of total land area) and function as habitats for organisms, hydrologic flow modulators, and soil conservers, constituting one of the most important aspects of the Earth's biosphere. 
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Forest
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		forests, plants, agriculture, trees
+		</skos:note>
+		<skos:broader rdf:resource="Land_Cover"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Water_Pollution_By_Hormones">
+		<skos:prefLabel xml:lang="en">Water Pollution By Hormones</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Hormone-like substances can change the sexual characteristics of fish species, such as roach.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eea.europa.eu/themes/water/status-and-monitoring/state-of-surface-waters/water-quality-and-pollution-by-hazardous-substances
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Surface_Water"/>
+	</skos:Concept>
+	
+	<skos:Concept rdf:about="Water_Pollution_By_Oxygen_Consuming_Substances">
+		<skos:prefLabel xml:lang="en">Water Pollution By Oxygen Consuming Substances</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Organic matter, measured as Biochemical Oxygen Demand (BOD) and ammonium, are key indicators of the oxygen content of water bodies.Concentrations of these determinands normally increase as a result of organic pollution caused by discharges from waste water treatment plants, industrial effluents and agricultural run-off. Severe organic pollution may lead to rapid de-oxygenation of river water, a high concentration of ammonia and the disappearance of fish and aquatic invertebrates.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eea.europa.eu/themes/water/status-and-monitoring/state-of-surface-waters/water-quality-and-pollution-by-oxygen
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		ammonium, BOD, Biochemical Oxygen Demand, organic pollution
+		</skos:note>
+		<skos:broader rdf:resource="Surface_Water"/>
+		<skos:narrower rdf:resource="Biochemical_Oxygen_Demand"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Water_Pollution_By_Triclosan">
+		<skos:prefLabel xml:lang="en">Water Pollution By Triclosan</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Triclosan is an antimicrobially active substance used for many purposes such as disinfectants, preservatives and personal-care products. Triclosan is transformed to methyltriclosan in the environment through a path which is not fully understood. This substance persists in the environment and accumulates in organisms.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eea.europa.eu/themes/water/status-and-monitoring/state-of-surface-waters/water-quality-and-pollution-by-hazardous-substances
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		water pollution, chemicals
+		</skos:note>
+		<skos:broader rdf:resource="Surface_Water"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Water_Pollution_By_Metals">
+		<skos:prefLabel xml:lang="en">Water Pollution By Metals</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Depending on the soil type, inorganic trace elements, including metals, occur in groundwater in higher or lower concentrations. Metals occur naturally in groundwater, but lowering of the groundwater table and oxidation of metallic minerals can raise the concentration. High concentrations of metalloids, such as arsenic in the groundwater and drinking water, can be extremely harmful.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eea.europa.eu/themes/water/status-and-monitoring/state-of-groundwater/water-quality-and-pollution-by-hazardous-substances
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Ground_Water"/>
+	</skos:Concept>	
+
+	<skos:Concept rdf:about="Water_Pollution_By_Organic_Micropollutants">
+		<skos:prefLabel xml:lang="en">Water Pollution By Organic Micropollutants</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Organic micropollutants that have been used in large amounts, or have been dispersed in the environment may also affect groundwater quality, in particular aromatic hydrocarbons and chlorinated solvents.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eea.europa.eu/themes/water/status-and-monitoring/state-of-groundwater/water-quality-and-pollution-by-hazardous-substances
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		organic pollution
+		</skos:note>
+		<skos:broader rdf:resource="Ground_Water"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Water_Pollution_By_Nitrates">
+		<skos:prefLabel xml:lang="en">Water Pollution By Nitrates</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Agriculture is the largest contributor of nitrogen pollution to groundwater. Nitrogen from excess fertilizer percolates through the soil and is detectable as elevated nitrate concentrations under aerobic conditions and as elevated ammonium concentrations under anaerobic conditions. The rate of percolation is often slow and excess nitrogen concentrations may be the effects of pollution on the surface from up to 40 years prior, depending on the hydro-geological conditions.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eea.europa.eu/themes/water/status-and-monitoring/state-of-groundwater/water-quality-and-pollution-by-nutrients
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		fertilizers, agriculture
+		</skos:note>
+		<skos:broader rdf:resource="Ground_Water"/>
+	</skos:Concept>
+	
+	<skos:Concept rdf:about="Meteorological_Data">
+		<skos:prefLabel xml:lang="en">Meteorological Data</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Atmospheric_Phenomena</skos:altLabel> <!-- as many as needed -->
+		<skos:definition xml:lang="en">
+		Meteorological data describe the actual weather condition, including precipitations, wind, cloud cover and so on. It is useful for weather monitoring and forecast.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		meteorology meteorological forecasting,weather,atmosphere,climate, wind, rain, cloud
+		</skos:note>
+		<skos:broader rdf:resource="Weather"/>
+		<skos:narrower rdf:resource="Cloud"/>
+		<skos:narrower rdf:resource="Wind"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Drought">
+		<skos:prefLabel xml:lang="en">Drought</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		A period of abnormally dry weather sufficiently prolonged so that the lack of water causes a serious hydrologic imbalance (such as crop damage, water supply shortage) in the affected area.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept?cp=2347&amp;langcode=en&amp;ns=1
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Weather"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Pollen">
+		<skos:prefLabel xml:lang="en">Pollen</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		It is a measure of pollen dissemination over specific areas, concerning in particular highly allergenic taxa in order to facilate medical measures.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.enviport.org/promote/pollen/index.html (modified)
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Bioclimatology"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Solar_UV_Radiation">
+		<skos:prefLabel xml:lang="en">Solar UV Radiation</skos:prefLabel>
+		<skos:altLabel xml:lang="en">UV radiation</skos:altLabel>
+		<skos:altLabel xml:lang="en">ultra-violet radiation</skos:altLabel>
+		<skos:altLabel xml:lang="en">ultraviolet radiation</skos:altLabel>
+		<skos:altLabel xml:lang="en">ultra-violet</skos:altLabel>
+		<skos:altLabel xml:lang="en">ultraviolet</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The part of the electromagnetic spectrum with wavelengths shorter than light but longer than x-rays; in the range of 4-400 nm.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept?cp=8742&amp;langcode=en&amp;ns=1
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		sunburn, UV-index
+		</skos:note>
+		<skos:broader rdf:resource="Solar_Radiation"/>
+		<skos:broader rdf:resource="Bioclimatology"/>
+		<skos:narrower rdf:resource="Biologically_Effective_UV_Dose"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Global_Temperature">
+		<skos:prefLabel xml:lang="en">Global Temperature</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Global temperature is obtained by collecting measurements of air temperatures at a large number of measuring stations around the Globe, weighing them according to the area they represent, and then calculating the yearly average according to the usual method of adding all values and dividing by the number of points.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.sciencedaily.com/releases/2007/03/070315101129.htm
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		global warming, climate change
+		</skos:note>
+		<skos:broader rdf:resource="Climate_Change"/>
+		<skos:narrower rdf:resource="Land_Surface_Temperature"/>
+		<skos:narrower rdf:resource="Sea_Surface_Temperature"/>
+		<skos:narrower rdf:resource="Air_Temperature"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Ice_Change_Detection">
+		<skos:prefLabel xml:lang="en">Ice Change Detection</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The cryosphere is sensitive to changes in mean ambient temperature and precipitation on a wide range of time scales, thus various components of the cryosphere are senstitive monitors of climate change.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://southport.jpl.nasa.gov/scienceapps/dixon/report7.html
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		climate change, ice retreat, ice build-up, flooding
+		</skos:note>
+		<skos:broader rdf:resource="Climate_Change"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Ocean_Level">
+		<skos:prefLabel xml:lang="en">Ocean Level</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Water Level</skos:altLabel>
+		<skos:altLabel xml:lang="en">Sea Level</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Changes in sea level are connected to tides, air pressures, winds and global warming. Such changes are important to predict floods and other damages. Sea level may be monitored using tide gauges installed along the coastlines, through seabed devices measuring pressure and using satellite radar altimetry.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">		http://www.oceansatlas.com/servlet/CDSServlet?status=ND0xMjc1NCZjdG5faW5mb192aWV3X3NpemU9Y3RuX2luZm9fdmlld19mdWxsJjY9ZW4mMzM9KiYzNz1rb3M~
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		tide gauge, flood
+		</skos:note>
+		<skos:broader rdf:resource="Climate_Change"/>
+		<skos:narrower rdf:resource="Tide_Monitoring"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Greenhouse_Effect">
+		<skos:prefLabel xml:lang="en">Greenhouse Effect</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The warming of the Earth's atmosphere caused by the increasing concentration of atmospheric gases, such as water vapour and carbon dioxide. These gases absorb radiation emitted by the Earth, thus slowing down the loss of radiant energy from the Earth back to space.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept?cp=3761&amp;langcode=en&amp;ns=1
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		global warming
+		</skos:note>
+		<skos:broader rdf:resource="Climate_Change"/>
+		<skos:narrower rdf:resource="Aerosol"/>
+		<skos:narrower rdf:resource="Greenhouse_Gas"/>
+		<skos:narrower rdf:resource="Radiative_Forcing"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Carbon_Monoxide">
+		<skos:prefLabel xml:lang="en">Carbon Monoxide</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Carbonous Oxide</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Colorless, odourless, tasteless, non-corrosive, highly poisonous gas of about the same density as that of air. Very flammable, burning in air with bright blue flame. Although each molecule of CO has one carbon atom and one oxygen atom, it has a shape similar to that of an oxygen molecule (two atoms of oxygen), which is important with regard to it's lethality.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept?cp=1173&amp;langcode=en&amp;ns=1
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Fire_Emission"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Formaldehyde">
+		<skos:prefLabel xml:lang="en">Formaldehyde</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Methanal</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Formaldehyde is an organic compound with the formula CH2O. It is the simplest aldehyde, hence its systematic name methanal. In view of its widespread use, toxicity and volatility, exposure to formaldehyde is a significant consideration for human health.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Formaldehyde
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		glyoxal
+		</skos:note>
+		<skos:broader rdf:resource="Fire_Emission"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Nitrogen_Oxides">
+		<skos:prefLabel xml:lang="en">Nitrogen Oxides</skos:prefLabel>
+		<skos:altLabel xml:lang="en">NOx</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Oxides formed and released in all common types of combustion; they are formed by the oxidation of atmospheric nitrogen at high temperatures. Introduced into the atmosphere from car exhausts, furnace stacks, incinerators, power stations and similar sources, the oxides include nitrous oxide, nitric oxide, nitrogen dioxide, nitrogen pentoxide and nitric acid. The oxides of nitrogen undergo many reactions in the atmosphere to form photochemical smog.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept?cp=5613&amp;langcode=en&amp;ns=1
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		nitrous oxide, nitrogen monoxide, nitrogen dioxide
+		</skos:note>
+		<skos:broader rdf:resource="Fire_Emission"/>
+		<skos:narrower rdf:resource="Nitrogen_Dioxide"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Aerosol">
+		<skos:prefLabel xml:lang="en">Aerosol</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		A gaseous suspension of ultramicroscopic particles of a liquid or a solid.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept?cp=157&amp;langcode=en&amp;ns=1
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Fire_Emission"/>
+		<skos:broader rdf:resource="Greenhouse_Effect"/>
+		<skos:narrower rdf:resource="Particulate_Matter"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Soil_Erosion">
+		<skos:prefLabel xml:lang="en">Soil Erosion</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Erosion</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Detachment and movement of topsoil or soil material from the upper part of the profile, by the action of wind or running water, especially as a result of changes brought about by human activity, such as unsuitable or mismanaged agriculture.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept?cp=7858&amp;langcode=en&amp;ns=1
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		shallow landslide
+		</skos:note>
+		<skos:broader rdf:resource="Soil"/>
+	</skos:Concept>
+
+<!-- ************** Level 5 ************** -->
+
+	<skos:Concept rdf:about="Biochemical_Oxygen_Demand">
+		<skos:prefLabel xml:lang="en">Biochemical Oxygen Demand</skos:prefLabel>
+		<skos:altLabel xml:lang="en">BOD</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Biochemical oxygen demand is a measure of how much dissolved oxygen is being consumed as microbes break down organic matter. A high demand, therefore, can indicate that levels of dissolved oxygen are falling, with potentially dangerous implications for the river�s biodiversity. High biochemical oxygen demand can be caused by high levels of organic pollution, caused usually by poorly treated wastewater; or high nitrate levels, which trigger high plant growth. Both result in higher amounts of organic matter in the river. When this matter decays, the microbiological activity uses up the oxygen.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://themes.eea.europa.eu/Specific_media/water/indicators/bod
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		nitrates, water pollution, river
+		</skos:note>
+		<skos:broader rdf:resource="Water_Pollution_By_Oxygen_Consuming_Substances"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Wind">
+		<skos:prefLabel xml:lang="en">Wind</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Wind data include wind speed, direction, gust and temperature.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www5.ncdc.noaa.gov/documentlibrary/pdf/wind1996.pdf
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		wind speed, wind direction, peak gust
+		</skos:note>
+		<skos:broader rdf:resource="Meteorological_Data"/>
+		<skos:narrower rdf:resource="Wind_Stress"/>
+		<skos:narrower rdf:resource="Wind_Direction"/>
+		<skos:narrower rdf:resource="Wind_Gust"/>
+		<skos:narrower rdf:resource="Wind_Speed"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Biologically_Effective_UV_Dose">
+		<skos:prefLabel xml:lang="en">Biologically Effective UV Dose</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Biologically effective UV radiation</skos:altLabel>
+		<skos:altLabel xml:lang="en">Biologically Effective Ultra-Violet Radiation</skos:altLabel>
+		<skos:altLabel xml:lang="en">Biologically effective dose of UV radiation</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Amount (in time) of irradiation that is required to reach target cells or organ, and to produce effects on biological entities - e.g. on human skin to have sunburn.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.businessdictionary.com/definition/biologically-effective-dose.html (modified)
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Solar_UV_Radiation"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Air_Temperature">
+		<skos:prefLabel xml:lang="en">Air Temperature</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Atmospheric Temperature</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The temperature of the atmosphere which represents the average kinetic energy of the molecular motion in a small region and is defined in terms of a standard or calibrated thermometer in thermal equilibrium with the air.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.answers.com/topic/air-temperature#ixzz1LxqvKw1f
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		Global temperature
+		</skos:note>
+		<skos:broader rdf:resource="Global_Temperature"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Sea_Surface_Temperature">
+		<skos:prefLabel xml:lang="en">Sea Surface Temperature</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Water Skin Temperature</skos:altLabel>
+		<skos:altLabel xml:lang="en">SST</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The measure of the temperature of a very thin layer (about 10 micrometres thick) or skin of the ocean, representing the top millimeter. High water skin temperatures are generally favorable for the formation and sustaining of tropical cyclones.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Sea_surface_temperature
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		tropical cyclones
+		</skos:note>
+		<skos:broader rdf:resource="Global_Temperature"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Tide_Monitoring">
+		<skos:prefLabel xml:lang="en">Tide Monitoring</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Measuring tides requires some elaboration of simple water level data, in order to distinguish actual periodical tides from occasional water level variations.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.vims.edu/physical/research/TCTutorial/tidemeasure.htm;  http://oceanservice.noaa.gov/education/kits/tides
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		high tide,low tide,high water,water level
+		</skos:note>
+		<skos:broader rdf:resource="Ocean_Level"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Greenhouse_Gas">
+		<skos:prefLabel xml:lang="en">Greenhouse Gas</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The concentration of those components of the atmosphere that influence the greenhouse effect, namely carbon dioxide, methane, nitrous oxides, ozone, CFCs and water vapour.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept?cp=3763&amp;langcode=en&amp;ns=1
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		climate change, global warming, greenhouse effect
+		</skos:note>
+		<skos:broader rdf:resource="Greenhouse_Effect"/>
+		<skos:narrower rdf:resource="Methane"/>
+		<skos:narrower rdf:resource="Ozone"/>
+		<skos:narrower rdf:resource="Chlorofluorocarbons"/>
+		<skos:narrower rdf:resource="Carbon_Dioxide"/>
+		<skos:narrower rdf:resource="Water_Vapor"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Radiative_Forcing">
+		<skos:prefLabel xml:lang="en">Radiative Forcing</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Climate Forcing</skos:altLabel> <!-- as many as needed -->
+		<skos:definition xml:lang="en">
+		In climate science, radiative forcing is loosely defined as the change in net irradiance at the atmospheric boundary between the troposphere and the stratosphere (the tropopause). Net irradiance  is the difference between the incoming radiation energy and the outgoing radiation energy in a given climate system and is measured in Watts per square meter. The change is computed based on "unperturbed" values, defined by the Intergovernmental Panel on Climate Change (IPCC) as the measured difference relative to a base period.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Climate_forcing
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		climate change, climate change study, climatic change
+		</skos:note>
+		<skos:broader rdf:resource="Greenhouse_Effect"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Particulate_Matter">
+		<skos:prefLabel xml:lang="en">Particulate Matter</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Particulate</skos:altLabel>
+		<skos:altLabel xml:lang="en">Fine Dust</skos:altLabel>
+		<skos:altLabel xml:lang="en">PM10</skos:altLabel>
+		<skos:altLabel xml:lang="en">PM25</skos:altLabel>
+		<skos:altLabel xml:lang="en">PM1</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Air-borne solid particles, originating from human activity and natural sources, such as wind-blown soil and fires, that eventually settle through the force of gravity, and can cause injury to human and other animal respiratory systems through excessive inhalation.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept?cp=3209&amp;langcode=en&amp;ns=1
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		air pollutant, atmospheric pollutant
+		</skos:note>
+		<skos:broader rdf:resource="Aerosol"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Nitrogen_Dioxide">
+		<skos:prefLabel xml:lang="en">Nitrogen_Dioxide</skos:prefLabel>
+		<skos:altLabel xml:lang="en">NO2</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A reddish-brown gas; it exists in varying degrees of concentration in equilibrium with other nitrogen oxides; used to produce nitric acid.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept?cp=5608&amp;langcode=en&amp;ns=1
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Nitrogen_Oxides"/>
+	</skos:Concept>
+
+<!-- ************** Level 6 ************** -->
+
+	<skos:Concept rdf:about="Wind_Stress">
+		<skos:prefLabel xml:lang="en">Wind Stress</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The horizontal force of the wind on the sea surface is called the wind stress.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://oceanworld.tamu.edu/resources/ocng_textbook/chapter04/chapter04_05.htm
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Wind"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Wind_Direction">
+		<skos:prefLabel xml:lang="en">Wind Direction</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Wind direction is the direction from which the wind is blowing. It is usually reported in cardinal directions or in azimuth degrees.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Wind_direction
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Wind"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Wind_Gust">
+		<skos:prefLabel xml:lang="en">Wind Gust</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Wind Gust  Is a sudden, brief increase in speed of the wind.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.srh.noaa.gov/graphical/definitions/defineWindGust.html
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		peak wind speed
+		</skos:note>
+		<skos:broader rdf:resource="Wind"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Wind_Speed">
+		<skos:prefLabel xml:lang="en">Wind Speed</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Wind speed is affected by a number of factors, situations, operating on varying scales (from micro to macro scales). These include the pressure gradient, Rossby waves and jet streams and local weather conditions. There are also links to be found between wind speed and wind direction, notably with the pressure gradient and surfaces that the air is to be found over.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Wind_speed
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		wind velocity, pressure gradient, wind direction
+		</skos:note>
+		<skos:broader rdf:resource="Wind"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Methane">
+		<skos:prefLabel xml:lang="en">Methane</skos:prefLabel>
+		<skos:altLabel xml:lang="en">CH4</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A colourless, odourless, and tasteless gas, lighter than air and reacting violently with chlorine and bromine in sunlight, a chief component of natural gas; used as a source of methanol, acetylene, and carbon monoxide. Also known as methyl hydride.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept?cp=5199&amp;langcode=en&amp;ns=1
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Greenhouse_Gas"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Ozone">
+		<skos:prefLabel xml:lang="en">Ozone</skos:prefLabel>
+		<skos:altLabel xml:lang="en">O3</skos:altLabel>
+		<skos:definition xml:lang="en">
+		An allotropic form of oxygen containing three atoms in the molecule. It is a bluish gas, very active chemically, and a powerful oxidizing agent. Ozone is formed when oxygen or air is subjected to a silent electric discharge. It occurs in ordinary air in very small amounts only.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept?cp=5991&amp;langcode=en&amp;ns=1
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Greenhouse_Gas"/>
+		<skos:narrower rdf:resource="Tropospheric_Ozone"/>
+		<skos:narrower rdf:resource="Stratospheric_Ozone"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Chlorofluorocarbons">
+		<skos:prefLabel xml:lang="en">Chlorofluorocarbons</skos:prefLabel>
+		<skos:altLabel xml:lang="en">CFCs</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Gases formed of chlorine, fluorine, and carbon whose molecules normally do not react with other substances; they are therefore used as spray can propellants because they do not alter the material being sprayed.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept?cp=1381&amp;langcode=en&amp;ns=1
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Greenhouse_Gas"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Carbon_Dioxide">
+		<skos:prefLabel xml:lang="en">Carbon Dioxide</skos:prefLabel>
+		<skos:altLabel xml:lang="en">CO2</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A colourless gas with a faint tingling smell and taste. Atmospheric carbon dioxide is the source of carbon for plants. As carbon dioxide is heavier than air and does not support combustion, it is used in fire extinguishers. It is a normal constituent of the atmosphere, relatively innocuous in itself but playing an important role in the greenhouse effect. It is produced during the combustion of fossil fuels when the carbon content of the fuels reacts with the oxygen during combustion. It is also produced when living organisms respire. It is essential for plant nutrition and in the ocean phytoplankton is capable of absorbing and releasing large quantities of the gas.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept?cp=1168&amp;langcode=en&amp;ns=1
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Greenhouse_Gas"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Water_Vapor">
+		<skos:prefLabel xml:lang="en">Water Vapor</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Water Vapour</skos:altLabel> <!-- as many as needed -->
+		<skos:definition xml:lang="en">
+		Water vapor or water vapour (see spelling differences), also aqueous vapor, is the gas phase of water. Water vapor is one state of water within the hydrosphere.Water vapor is lighter than air and triggers convection currents that can lead to clouds. Water vapor is a potent greenhouse gas along with other gases such as carbon dioxide and methane.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Water_vapor
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Greenhouse_Gas"/>
+	</skos:Concept>
+
+<!-- ************** Level 7 ************** -->
+
+	<skos:Concept rdf:about="Tropospheric_Ozone">
+		<skos:prefLabel xml:lang="en">Tropospheric Ozone</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Tropospheric ozone is a secondary pollutant formed from emissions of nitrogen oxides, non-methane volatile organic compounds and carbon monoxide. Ozone scars lung tissue, makes eyes sting and throats itch. It has been implicated as a contributor to forest dieback, damage to agricultural crops, etc.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept?cp=8696&amp;langcode=en&amp;ns=1
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		reactive gas, atmospheric pollutant
+		</skos:note>
+		<skos:broader rdf:resource="Ozone"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Stratospheric_Ozone">
+		<skos:prefLabel xml:lang="en">Stratospheric Ozone</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		A triatomic molecule of oxygen; a natural constituent of the atmosphere, with the highest concentrations in the ozone layer or stratosphere; it is found at a level between 15 and 30 km above the Earth, which prevents harmful ultraviolet B radiation.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept?cp=632&amp;langcode=en&amp;ns=1
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		Ozone layer, Ozone hole
+		</skos:note>
+		<skos:broader rdf:resource="Ozone"/>
+	</skos:Concept>
+
+<!-- THE END -->
+</rdf:RDF>

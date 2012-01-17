@@ -1,0 +1,48 @@
+<rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:void="http://rdfs.org/ns/void#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dcterms="http://purl.org/dc/terms/">
+	<!-- GEMET Erdas for testing -->
+	<void:Dataset rdf:about="http://www.eionet.europa.eu/gemet/">
+		<dcterms:title>GEMET</dcterms:title>
+		<dcterms:description>GEMET</dcterms:description>
+		<void:sparqlEndpoint rdf:resource="http://projects-eu.erdas.com/openrdf-sesame/repositories/SMAAD"/>
+		<void:openSearchDescription rdf:resource="http://projects-eu.erdas.com/epf-proxy/opensearch.jsp?Ontology=GEMET"/>
+		<!--
+		<void:openSearchDescription rdf:resource="http://localhost:8080/smaad-annotation-core/opensearch.jsp"/>
+		-->
+		<void:uriLookupEndpoint rdf:resource="http://projects-eu.erdas.com/openrdf-workbench/repositories/SMAAD/explore?resource="/>
+		<void:uriSpace>http://www.eionet.europa.eu/gemet/</void:uriSpace>
+		<void:uriRegexPattern>^http://www.eionet.europa.eu/gemet/.*</void:uriRegexPattern>
+		<void:rootResource rdf:resource="http://www.eionet.europa.eu/gemet/concept/3650"/>
+        <!--
+		<void:dataDump rdf:resource="http://www.eionet.europa.eu/openrdf-workbench/repositories/SMAAD/export"/>
+		-->
+        <void:dataDump rdf:resource="http://www.eionet.europa.eu/gemet/gemet-skoscore.rdf"/>
+        <void:dataDump rdf:resource="http://www.eionet.europa.eu/gemet/gemet-definitions.rdf?langcode=en"/>
+        <void:dataDump rdf:resource="http://www.eionet.europa.eu/gemet/gemet-definitions.rdf?langcode=fr"/>
+	</void:Dataset>
+	<!-- OTEG Erdas for testing -->
+	<void:Dataset rdf:about="http://oteg.esa.int">
+		<dcterms:title>OTEG</dcterms:title>
+		<dcterms:description>OTEG (for testing)</dcterms:description>
+		<void:sparqlEndpoint rdf:resource="http://projects-eu.erdas.com/openrdf-sesame/repositories/OTEG"/>
+		<void:openSearchDescription rdf:resource="http://projects-eu.erdas.com/epf-proxy/opensearch.jsp?Ontology=OTEG"/>
+		<void:uriLookupEndpoint rdf:resource="http://projects-eu.erdas.com/openrdf-workbench/repositories/OTEG/explore?resource="/>
+		<void:uriSpace>http://oteg.esa.int/infodomain-v1.0.owl#</void:uriSpace>
+		<void:uriRegexPattern>^http://oteg.esa.int/infodomain-v1.0.owl#.*</void:uriRegexPattern>
+		<void:dataDump rdf:resource="http://projects-eu.erdas.com/epf-proxy/ontology/oteg/InfoDomain_Terminology-skos.rdf"/>
+        <void:dataDump rdf:resource="http://projects-eu.erdas.com/epf-proxy/ontology/oteg/InfoDomain-skos.rdf"/>
+	</void:Dataset>
+    <!-- MULTI-DOMAIN Erda for testing -->
+	<void:Dataset rdf:about="http://oteg.esa.int">
+		<dcterms:title>MULTIDOMAIN</dcterms:title>
+		<dcterms:description>MULTIDOMAIN (for testing)</dcterms:description>
+		<void:sparqlEndpoint rdf:resource="http://projects-eu.erdas.com/openrdf-sesame/repositories/SMAAD"/>
+		<void:openSearchDescription rdf:resource="http://projects-eu.erdas.com/epf-proxy/opensearch.jsp?Ontology=MULTIDOMAIN"/>
+		<void:uriLookupEndpoint rdf:resource="http://projects-eu.erdas.com/openrdf-workbench/repositories/SMAAD/explore?resource="/>
+		<void:uriSpace>http://thesauri.esa.int/MultiDomain_Thesaurus/</void:uriSpace>
+		<void:uriRegexPattern>^http://thesauri.esa.int/MultiDomain_Thesaurus/.*</void:uriRegexPattern>
+		<void:dataDump rdf:resource="http://projects-eu.erdas.com/epf-proxy/ontology/Multidomain/Land_Monitoring_Thesaurus_v2.rdf"/>
+	</void:Dataset>
+</rdf:RDF>

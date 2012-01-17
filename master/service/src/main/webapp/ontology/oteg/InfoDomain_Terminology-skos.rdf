@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
+xmlns="http://oteg.esa.int/infodomain-v1.0.owl#" 
+xml:lang="en">
+
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Agriculture">
+    <skos:prefLabel>Agriculture</skos:prefLabel>
+    <skos:definition>Agriculture refers to the 
+production of food and goods through farming and forestry.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>pesticide, groundwater, food, crop, cultivation, fibers, fuels, raw materials, pharmaceuticals, illegal drugs, arable land</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Algal_bloom">
+    <skos:prefLabel>Algal bloom</skos:prefLabel>
+    <skos:definition>Rapid Increase of the population of algae in an acquatic system. It takes place when there is an excess of nutrients in the water, particularly phosporus, and is aggravated when accompanied by a rise in temperature. Although the algae grow quickly they soon die because they have swallowed up all the water's nutrients.  Algal blooms are monitored using biomass measurements coupled with the examination of species present. A widely-used measure of algal and cyanobacterial biomass is the chlorophyll concentration.</skos:definition>
+    <skos:altLabel>alga,algae, alga spreading,alga monitoring,alga observation,alga forecast,alga detection,algal bloom detection,algal bloom monitoring,algal bloom observation,algal bloom spreading,algal bloom forecast</skos:altLabel>
+    <skos:note>ecosystem,eutrophication, nutrients in water, nitrogen, phosphates, water pollution</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Biochemical_oxygen_demand">
+    <skos:prefLabel>Biochemical oxygen demand</skos:prefLabel>
+    <skos:definition>Biochemical oxygen demand is a measure of how much dissolved oxygen is being consumed as microbes break down organic matter. A high demand, therefore, can indicate that levels of dissolved oxygen are falling, with potentially dangerous implications for the river?s biodiversity.High biochemical oxygen demand can be caused by high levels of organic pollution, caused usually by poorly treated wastewater; or high nitrate levels, which trigger high plant growth. Both result in higher amounts of organic matter in the river. When this matter decays, the microbiological activity uses up the oxygen. </skos:definition>
+    <skos:altLabel>BOD</skos:altLabel>
+    <skos:note>nitrates, water pollution, river</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Climate">
+    <skos:prefLabel>Climate</skos:prefLabel>
+    <skos:definition>Climate encompasses the temperatures, humidity, rainfall, atmospheric particle count and numerous other meteorogical factors in a given region over long periods of time</skos:definition>
+    <skos:altLabel/>
+    <skos:note>temperature, weather</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Climate_change">
+    <skos:prefLabel>Climate change</skos:prefLabel>
+    <skos:definition>Climate change is one of our greatest environmental, social and economic threats. The warming of the climate system is unequivocal, says the Intergovernmental Panel on Climate Change (IPCC). Observations show increases in global average air and ocean temperatures, widespread melting of snow and ice, and rising global mean sea level.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>global warming, greenhouse effect</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Cloud">
+    <skos:prefLabel>Cloud</skos:prefLabel>
+    <skos:definition>Data about cloud cover, height, speed and so on may be useful for weather monitoring and forecasting</skos:definition>
+    <skos:altLabel/>
+    <skos:note>cloud cover,cloud height,cloud base,cloud top,cloud speed,cloud direction</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Coastal_environment">
+    <skos:prefLabel>Coastal environment</skos:prefLabel>
+    <skos:definition>The areas where the land masses meet the seas. Coastal environments include tidal wetlands, estuaries, bays, shallow near-shore waters, mangrove swamps, and in-shore reef systems. </skos:definition>
+    <skos:altLabel>coastal area, coast,  shoreline, shore, seashore,coastline</skos:altLabel>
+    <skos:note/>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Digital_elevation_model">
+    <skos:prefLabel>Digital elevation model</skos:prefLabel>
+    <skos:definition>A digital elevation model (DEM) is a digital representation of ground surface topography or terrain. It is also widely known as a digital terrain model (DTM). DEMs are commonly built using remote sensing techniques, however, they may also be built from land surveying. DEMs are used often in geographic information systems, and are the most common basis for digitally-produced relief maps.</skos:definition>
+    <skos:altLabel>DEM, Digital Terrain Model, DTM, relief map</skos:altLabel>
+    <skos:note/>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Eutrophication">
+    <skos:prefLabel>Eutrophication</skos:prefLabel>
+    <skos:definition>A process of pollution that occurs when a lake or stream becomes over-rich in plant nutrient; as a consequence it becomes overgrown in algae and other aquatic plants. The plants die and decompose. In decomposing the plants rob the water of oxygen and the lake, river or stream becomes lifeless. Nitrate fertilizers which drain from the fields, nutrients from animal wastes and human sewage are the primary causes of eutrophication.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>Algae, nutrients, animal waste, sewage</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Forest">
+    <skos:prefLabel>Forest</skos:prefLabel>
+    <skos:definition>A forest is an area with a high 
+density of trees.
+These plant communities cover
+ approximately 9.4% of the Earth's surface (or 30% of total land area) and function as habitats for organisms, hydrologic flow modulators, and soil conservers, constituting one of the most important aspects of the Earth's biosphere. </skos:definition>
+    <skos:altLabel>Vegetation</skos:altLabel>
+    <skos:note>forests, plants, agriculture, trees</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Global_temperature">
+    <skos:prefLabel>Global temperature</skos:prefLabel>
+    <skos:definition>Global temperature is obtained by collecting measurements of air temperatures at a large number of measuring stations around the Globe, weighing them according to the area they represent, and then calculating the yearly average according to the usual method of adding all values and dividing by the number of points.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>global warming, climate change</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Greenhouse_gas_concentration">
+    <skos:prefLabel>Greenhouse gas concentration</skos:prefLabel>
+    <skos:definition>The concentration of those components of the atmosphere that influence the greenhouse effect, namely carbon dioxide, methane, nitrous oxides, ozone, CFCs and water vapour.</skos:definition>
+    <skos:altLabel>greenhouse effect</skos:altLabel>
+    <skos:note>climate change, global warming</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Ground_water">
+    <skos:prefLabel>Ground water</skos:prefLabel>
+    <skos:definition>the water that fills the empty spaces and cracks in the soil is called ground water.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>inland water, soil, agriculture</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Ice_change_detection">
+    <skos:prefLabel>Ice change detection</skos:prefLabel>
+    <skos:definition>The cryosphere is sensitive to changes in mean ambient temperature and precipitation on a wide range of time scales, thus various components of the cryosphere are senstitive monitors of climate change.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>climate change, ice retreat, ice build-up, flooding</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Ice_classification">
+    <skos:prefLabel>Ice classification</skos:prefLabel>
+    <skos:definition>Ice may be classified as Open water, Light Ice, Intact ice, Lightly consolidated ice or Heavily Consolidated Ice
+</skos:definition>    <skos:altLabel/>    <skos:note>ice thickness, ice cover, flooding</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Ice_navigational_aid">
+    <skos:prefLabel>Ice navigational aid</skos:prefLabel>
+    <skos:definition>Standard ice information products include ice charts containing information on ice edge, ice concentration and the main type of ice at any location, and may include maps of sea surface temperature. Ice reports are text bulletins describing ice conditions and expected short-term evolution.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>ice charts. Ice edge, ice concentration, sea surface maps, temperature, ice evolution forecasting, offshore infrustractures ice monitoring</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Ice_thickness_classification">
+    <skos:prefLabel>Ice thickness classification</skos:prefLabel>
+    <skos:definition>Ice thickness classified and measured in centimeters</skos:definition>
+    <skos:altLabel/>
+    <skos:note>ship routes</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Information_Domain">
+    <skos:prefLabel>Information domain</skos:prefLabel>
+    <skos:definition>Any application domain where Earth Observation products can be useful</skos:definition>
+    <skos:altLabel/>
+    <skos:note/>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Land_cover">
+    <skos:prefLabel>Land cover</skos:prefLabel>
+    <skos:definition>land cover is a way of portraying
+ the surface of the earth. 
+Often this is done through a 
+process of classification
+ where regions of the earth
+ are identified according to some
+ of their more prominent,
+quantifiable attributes</skos:definition>
+    <skos:altLabel/>
+    <skos:note>Land use, Land cover, Land change, Land change monitoring, Land take</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Land_monitoring">
+    <skos:prefLabel>Land monitoring</skos:prefLabel>
+    <skos:definition>Land monitoring includes all the services and activities in order to to chek status and make decisions in the fields of agriculture, water quality, soil protection, forest monitoring, urban development, biodiversity, etc</skos:definition>
+    <skos:altLabel/>
+    <skos:note/>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Land_surface_temperature">
+    <skos:prefLabel>Land surface temperature</skos:prefLabel>
+    <skos:definition>It is the temperature of the land surface i.e. kinetic temperature of the</skos:definition>
+    <skos:altLabel>earth temperature</skos:altLabel>
+    <skos:note>temperature </skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Land_use">
+    <skos:prefLabel>Land use</skos:prefLabel>
+    <skos:definition>Land use is the human modification of natural environment or wilderness into built environment such as fields, pastures, and settlements. Land-use change, together with use of fossil fuels, are the major anthropogenic sources of carbon dioxide, a dominant greenhouse gas. It has also been defined as "the total of arrangements, activities, and inputs that people undertake in a certain land cover type"</skos:definition>
+    <skos:altLabel>Land cover, Land change, Land change monitoring, Land take</skos:altLabel>
+    <skos:note>urbanization </skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Marine_environment">
+    <skos:prefLabel>Marine environment</skos:prefLabel>
+    <skos:definition>Marine environments include estuaries, coastal marine and nearshore zones, and open-ocean-deep-sea regions. Its monitoring is mostly due to environmental and security reasons.</skos:definition>
+    <skos:altLabel>Sea,Ocean</skos:altLabel>
+    <skos:note/>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Marine_pollution">
+    <skos:prefLabel>Marine pollution</skos:prefLabel>
+    <skos:definition>Any detrimental alteration of the marine environment caused by the intentional or accidental release of dangerous or toxic substances, such as industrial, commercial and urban waste water.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>marine environment, waste water</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Meteorological_data">
+    <skos:prefLabel>Meteorological data</skos:prefLabel>
+    <skos:definition>Meteorological data describe the actual weather condition, including precipitations, wind, cloud cover and so on. It is useful for weather monitoring and forecast.</skos:definition>
+    <skos:altLabel>atmospheric phenomena</skos:altLabel>
+    <skos:note>meteorology meteorological forecasting,weather,atmosphere,climate, wind, rain, cloud</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Ocean_colour">
+    <skos:prefLabel>Ocean colour</skos:prefLabel>
+    <skos:definition>Water colour is an indicator of water quality. It is caused by the absorption and scattering of sunlight and skylight by organic and inorganic matter in the water. In mid-ocean water, the only colourant is chlorophyll-bearing phytoplankton and its decay products. In inland waters, the colour of natural water adjacent to or surrounded by a land mass is determined not only by phytoplankton and decay products, but also by other coloured substances, including suspended sediments and dissolved organic matter that come from the land. </skos:definition>
+    <skos:altLabel>water color, water colour, ocean color</skos:altLabel>
+    <skos:note>Water quality, chlorophyll, phytoplankton, sediments, dissolved organic matter</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Ocean_level">
+    <skos:prefLabel>Ocean level</skos:prefLabel>
+    <skos:definition>Changes in sea level are connected to tides, air pressures, winds and global warming. Such changes are important to predict floods and other damages. Sea level may be monitored using tide gauges installed along the coastlines, through seabed devices measuring pressure and using satellite radar altimetry.</skos:definition>
+    <skos:altLabel>water level, sea level</skos:altLabel>
+    <skos:note>tide gauge,flood</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Ocean_surface_monitoring">
+    <skos:prefLabel>Ocean surface monitoring</skos:prefLabel>
+    <skos:definition>Currents, waves, temperatures and tides of the ocean surface are constantly monitored in order to keep track of changes and forecast interesting phaenomena</skos:definition>
+    <skos:altLabel/>
+    <skos:note>sea surface</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Offshore_environment">
+    <skos:prefLabel>Offshore environment</skos:prefLabel>
+    <skos:definition>Environment typical of open sea areas, far away from coastlines.</skos:definition>
+    <skos:altLabel>open sea</skos:altLabel>
+    <skos:note>oceanography, hydrosphere,marine water,ocean,sea</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Oil_pollution">
+    <skos:prefLabel>Oil pollution</skos:prefLabel>
+    <skos:definition>Contamination of any ecosystem, but usually of freshwater or marine ecosystems, by oil or other petroleum products.</skos:definition>
+    <skos:altLabel/>
+    <skos:note/>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Operational_oceanography">
+    <skos:prefLabel>Operational oceanography</skos:prefLabel>
+    <skos:definition>the activity of systematic and long-term routine measurements of the seas, oceans and atmosphere, and their rapid interpretation and dissemination.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>oceans</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Phytoplankton">
+    <skos:prefLabel>Phytoplankton</skos:prefLabel>
+    <skos:definition>Phytoplankton is a small aquatic organisms that form the basis of the ocean?s food chain and play a key role in the global ecosystem.  The sudden appearance of phytoplankton in massive numbers, enough to colour the ocean and be detected from orbiting sensors, is called bloom. The living cells of the small plant organisms contain chlorophylls and other pigments used for photosynthesis. The photosyntheric pigment chlorophyll-a dominates in most species and can be retrieved by remote sensing measurements.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>bloom, nutrients in water</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Sea_ice">
+    <skos:prefLabel>Sea ice</skos:prefLabel>
+    <skos:definition>Sea ice monitoring occurs year round in the polar regions; it involves sea ice distribution, growth and shrinkage monitoring. Also ice thickness is observed</skos:definition>
+    <skos:altLabel/>
+    <skos:note>ice distribution,ice growth,ice shrinkage,ice area,ice cover,ice thickness, iceberg, icebergs</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Sea_surface_temperature">
+    <skos:prefLabel>Sea surface temperature</skos:prefLabel>
+    <skos:definition>The measure of the temperature of a very thin layer (about 10 micrometres thick) or skin of the ocean, representing the top millimeter. High water skin temperatures are generally favorable for the formation and sustaining of tropical cyclones. </skos:definition>
+    <skos:altLabel>water skin temperature, SST</skos:altLabel>
+    <skos:note>tropical cyclones</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Ship_monitoring">
+    <skos:prefLabel>Ship monitoring</skos:prefLabel>
+    <skos:definition>Ship monitoring includes the identification of ship location, size and shape, speed and direction. Such data are useful for security puropses as well as for oil pollution management.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>vessel,tank</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Soil">
+    <skos:prefLabel>Soil </skos:prefLabel>
+    <skos:definition>Soil is the naturally occurring,
+ unconsolidated or loose covering
+on the Earth's surface. Soil is 
+composed of particles of broken
+ rock that have been altered by 
+chemical and environmental
+ processes including weathering
+ and erosion. Soil is  a mixture of mineral and  organic constituents that are in solid, gaseous and aqueous 
+states.</skos:definition>
+    <skos:altLabel>Soil protection</skos:altLabel>
+    <skos:note>ground water, agriculture, food</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Surface_water">
+    <skos:prefLabel>Surface water</skos:prefLabel>
+    <skos:definition>Surface waters include rivers and lakes; their quality is defined by biological and chemical parameters.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>river, lake, inland water</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Suspended_particulate_material">
+    <skos:prefLabel>Suspended particulate material</skos:prefLabel>
+    <skos:definition>Suspended particualte material may be resuspended bottom sediment, river-borne particles, eroded coastal and beach material or due to the dumping of sewage-sludge waste or dredging spoil. Such materials are mainly found close to the coast and in shallow seas, but not in the open ocean. </skos:definition>
+    <skos:altLabel>suspended matter</skos:altLabel>
+    <skos:note>sediment</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Tide_monitoring">
+    <skos:prefLabel>Tide monitoring</skos:prefLabel>
+    <skos:definition>Measuring tides requires some elaboration of simple water level data, in order to distinguish actual periodical tides from occasional water level variations.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>high tide,low tide,high water,water level</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Topography">
+    <skos:prefLabel>Topography</skos:prefLabel>
+    <skos:definition>Topography is the study of Earth's surface features; it is concerned with local detail in general, including not only relief but also vegetative and human-made features.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>earth surface, relief, land use</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Turbidity">
+    <skos:prefLabel>Turbidity</skos:prefLabel>
+    <skos:definition>Turbidity is a measure of the degree to which the water looses it?s transparency due to the presence of suspended particulates. Turbidity is considered as a good measure of the quality of water, both for drinking and for environmental puprposes.  Turbid water are warmer and have less oxygen.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>suspended particulates in water, water quality, transparency</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Urban_and_industry">
+    <skos:prefLabel>Urban and industry</skos:prefLabel>
+    <skos:definition>Mapping for city planning, at local scale, construction, noise modelling, and mining; it is also helpful in support of industrial development from civil engineering to oil prospecting, and in the monitoring of urban change and population mapping for planning and control purposes.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>urban monitoring, city, town, settlement, urbanization</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_index">
+    <skos:prefLabel>Water index</skos:prefLabel>
+    <skos:definition>Measures concerning the quantity and the quality of pollutants, nutrients and suspended solids contained in water bodies.</skos:definition>
+    <skos:altLabel/>
+    <skos:note/>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_management">
+    <skos:prefLabel>Water management</skos:prefLabel>
+    <skos:definition>Water management is the practice of planning, developing, distributing and optimum utilizing of water resources under defined water polices and regulations.</skos:definition>
+    <skos:altLabel>water monitoring, water use, water usage, irrigation, farming</skos:altLabel>
+    <skos:note>water quality</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_pollution_by_hormones">
+    <skos:prefLabel>Water pollution by hormones</skos:prefLabel>
+    <skos:definition>Hormone-like substances can change the sexual characteristics of fish species, such as roach.</skos:definition>
+    <skos:altLabel/>
+    <skos:note/>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_pollution_by_metals">
+    <skos:prefLabel>Water pollution by metals</skos:prefLabel>
+    <skos:definition>Depending on the soil type, inorganic trace elements, including metals, occur in groundwater in higher or lower concentrations. Metals occur naturally in groundwater, but lowering of the groundwater table and oxidation of metallic minerals can raise the concentration. High concentrations of metalloids, such as arsenic in the groundwater and drinking water, can be extremely harmful.</skos:definition>
+    <skos:altLabel/>
+    <skos:note/>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_pollution_by_nitrates">
+    <skos:prefLabel>Water pollution by nitrates</skos:prefLabel>
+    <skos:definition>Agriculture is the largest contributor of nitrogen pollution to groundwater. Nitrogen from excess fertilizer percolates through the soil and is detectable as elevated nitrate concentrations under aerobic conditions and as elevated ammonium concentrations under anaerobic conditions. The rate of percolation is often slow and excess nitrogen concentrations may be the effects of pollution on the surface from up to 40 years prior, depending on the hydro-geological conditions. </skos:definition>
+    <skos:altLabel/>
+    <skos:note>fertilizers, agriculture</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_pollution_by_organic_micropollutants">
+    <skos:prefLabel>Water pollution by organic micropollutants</skos:prefLabel>
+    <skos:definition>Organic micropollutants that have been used in large amounts, or have been dispersed in the environment may also affect groundwater quality, in particular aromatic hydrocarbons and chlorinated solvents</skos:definition>
+    <skos:altLabel/>
+    <skos:note>organic pollution</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_pollution_by_oxygen_consuming_substances">
+    <skos:prefLabel>Water pollution by oxygen consuming substances</skos:prefLabel>
+    <skos:definition>Organic matter, measured as Biochemical Oxygen Demand (BOD) and ammonium, are key indicators of the oxygen content of water bodies.Concentrations of these determinands normally increase as a result of organic pollution caused by discharges from waste water treatment plants, industrial effluents and agricultural run-off. Severe organic pollution may lead to rapid de-oxygenation of river water, a high concentration of ammonia and the disappearance of fish and aquatic invertebrates.
+</skos:definition>    <skos:altLabel/>    <skos:note>ammonium, BOD, Diochemical Ocygen Demand, organic pollution</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_pollution_by_triclosan">
+    <skos:prefLabel>Water pollution by triclosan</skos:prefLabel>
+    <skos:definition>Triclosan is an antimicrobially active substance used for many purposes such as disinfectants, preservatives and personal-care products. Triclosan is transformed to methyltriclosan in the environment through a path which is not fully understood. This substance persists in the environment and accumulates in organisms.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>water pollution, chemicals</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_pressure">
+    <skos:prefLabel>Water pressure</skos:prefLabel>
+    <skos:definition>Pressure at various ocean depths is usually expressed in units of atmosphere. Pressure in the ocean increases one atmosphere with about every 33 feet of depth.</skos:definition>
+    <skos:altLabel/>
+    <skos:note/>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_quality_monitoring">
+    <skos:prefLabel>Water quality monitoring</skos:prefLabel>
+    <skos:definition>Water quality monitoring involves the chemical condition of water (sediments, fish tissue, dissolved oxygen, nutrients, metals, oils, pesticides), but also physical conditions (temperature, flow, sediments) and biological measurements of the abundance and variety of aquatic plant and animal life.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>ocean biodiversity</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_salinity">
+    <skos:prefLabel>Water salinity</skos:prefLabel>
+    <skos:definition>Water salinity is measured in grams of salt per liter of water. Salinity index is useful to control the quality of the environment, also for fishing purposes.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>salt, water quality</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_temperature">
+    <skos:prefLabel>Water temperature</skos:prefLabel>
+    <skos:definition>Water temperature may be measured at different depth level and is a relevant parameter for water quality monitoring; it may be useful for predicting fishing grounds or forecasting cyclons.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>Sea surface temperature,SST</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_use">
+    <skos:prefLabel>Water use</skos:prefLabel>
+    <skos:definition>Without quantitative knowledge of water balance and the performance of irrigation systems, the potential to improve them remains largely unknown. A major effort is required for understanding water systems and the implications of reallocation of water to increase efficiency of use. Full understanding of the processes, based on river basin data, is needed for devising adequate policies and management action.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>irrigation, farming, water resources, water management</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Wave_climate">
+    <skos:prefLabel>Wave climate</skos:prefLabel>
+    <skos:definition>A lot of different informations may be used to manitor and predict the behaviour of sea and ocean waves, which is necessary to organize offshore activities, but also to forecast and manage meterological phaenomena such as tropical storms. Such informations include wave height, wind speed and meteorological data.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>wave height, tropical storms, wind speed, weather, meteorological data</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Weather">
+    <skos:prefLabel>Weather</skos:prefLabel>
+    <skos:definition>The weather is a set of all the phenomena occurring in a given atmosphere at a given time. Weather phenomena lie in the hydrosphere and troposphere. Weather refers to current activity, as opposed to the term climate, which refers to the average atmospheric conditions over longer periods of time.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>climate, atmosphere</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Wind">
+    <skos:prefLabel>Wind</skos:prefLabel>
+    <skos:definition>Wind data include wind speed, direction, gust and temperature</skos:definition>
+    <skos:altLabel/>
+    <skos:note>wind speed,wind direction,peak gust</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Wind_direction">
+    <skos:prefLabel>Wind direction</skos:prefLabel>
+    <skos:definition>Wind direction is the direction from which the wind is blowing. It is usually reported in cardinal directions or in azimuth degrees.</skos:definition>
+    <skos:altLabel/>
+    <skos:note/>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Wind_gust">
+    <skos:prefLabel>Wind gust</skos:prefLabel>
+    <skos:definition>Wind Gust  Is a sudden, brief increase in speed of the wind.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>peak wind speed</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Wind_speed">
+    <skos:prefLabel>Wind speed</skos:prefLabel>
+    <skos:definition>Wind speed is affected by a number of factors, situations, operating on varying scales (from micro to macro scales). These include the pressure gradient, Rossby waves and jet streams and local weather conditions. There are also links to be found between wind speed and wind direction, notably with the pressure gradient and surfaces that the air is to be found over.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>wind velocity, pressure gradient, wind direction</skos:note>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Wind_stress">
+    <skos:prefLabel>Wind stress</skos:prefLabel>
+    <skos:definition>The horizontal force of the wind on the sea surface is called the wind stress. </skos:definition>
+    <skos:altLabel/>
+    <skos:note/>
+  </rdf:Description>
+  <rdf:Description xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Yellow_substance">
+    <skos:prefLabel>Yellow substance</skos:prefLabel>
+    <skos:definition>Yellow substance, associated with decayed vegetation, sometimes referred to as DOM or gelbstoff, consists of humic acids and fulvic acids of various forms depending on their origin. It also influences water colour  through its absorption properties. It has strong absorption in the blue and high reflectance peak in the yellow. Some DOM is inevitably found wherever there is a phytoplankton population, being the decayed product od dead cells. Howevere it can also be found independentely of the local phytoplankton, coming tipically from land drainage, through river inflows to the sea. It is therefore likely to be found in coastal waters with strong concentrations in enclosed seas such as the Baltic.</skos:definition>
+    <skos:altLabel/>
+    <skos:note>DOM,dissolved organic matter</skos:note>
+  </rdf:Description>
+</rdf:RDF>

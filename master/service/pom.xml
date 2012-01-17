@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.erdas.projects.epf.epfproxy</groupId>
+        <artifactId>epfproxy</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>epfproxy-service</artifactId>
+    <packaging>war</packaging>
+    <name>EPF Proxy :: Proxy War Packaging</name>
+    <description>Package a War file containing the EPF Proxy</description>
+
+    <properties>
+        <custom.final.name>epf-proxy</custom.final.name>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.erdas.projects.epf.epfproxy</groupId>
+            <artifactId>epfproxy-core</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>${custom.final.name}</finalName>
+    </build>    
+</project>

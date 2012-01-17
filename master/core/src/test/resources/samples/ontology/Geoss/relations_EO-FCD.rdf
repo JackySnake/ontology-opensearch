@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dct="http://purl.org/dc/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:base="http://www.earthobservations.org/GEOSS/EO_Vocabulary/" xml:lang="en">
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/elevation">
+		<skos:exactMatch rdf:resource="http://inspire-registry.jrc.ec.europa.eu/registers/FCD/items/10"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://inspire-registry.jrc.ec.europa.eu/registers/FCD/items/10">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/elevation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20use">
+		<skos:exactMatch rdf:resource="http://inspire-registry.jrc.ec.europa.eu/registers/FCD/items/17"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://inspire-registry.jrc.ec.europa.eu/registers/FCD/items/17">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20use"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20topography">
+		<skos:relatedMatch rdf:resource="http://inspire-registry.jrc.ec.europa.eu/registers/FCD/items/406"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://inspire-registry.jrc.ec.europa.eu/registers/FCD/items/406">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20topography"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20composition">
+		<skos:relatedMatch rdf:resource="http://inspire-registry.jrc.ec.europa.eu/registers/FCD/items/16"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://inspire-registry.jrc.ec.europa.eu/registers/FCD/items/16">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20composition"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20type">
+		<skos:relatedMatch rdf:resource="http://inspire-registry.jrc.ec.europa.eu/registers/FCD/items/16"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://inspire-registry.jrc.ec.europa.eu/registers/FCD/items/16">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20type"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20cap%20elevation">
+		<skos:relatedMatch rdf:resource="http://inspire-registry.jrc.ec.europa.eu/registers/FCD/items/10"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://inspire-registry.jrc.ec.europa.eu/registers/FCD/items/10">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20cap%20elevation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20bodies%20%28location%29">
+		<skos:closeMatch rdf:resource="http://inspire-registry.jrc.ec.europa.eu/registers/FCD/items/425"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://inspire-registry.jrc.ec.europa.eu/registers/FCD/items/425">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20bodies%20%28location%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/field%20cover%20%28continuous%29">
+		<skos:closeMatch rdf:resource="http://inspire-registry.jrc.ec.europa.eu/registers/FCD/items/11"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://inspire-registry.jrc.ec.europa.eu/registers/FCD/items/11">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/field%20cover%20%28continuous%29"/>
+	</rdf:Description>
+</rdf:RDF>

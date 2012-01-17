@@ -1,0 +1,1841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dct="http://purl.org/dc/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:base="http://www.earthobservations.org/GEOSS/EO_Vocabulary/" xml:lang="en">
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20moisture">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20moisture">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20moisture">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20moisture">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20moisture">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20moisture">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20moisture">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20moisture">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20moisture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20moisture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20moisture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20moisture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20moisture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20moisture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20moisture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20moisture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20air%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20air%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20air%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20air%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20air%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20air%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20air%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20air%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20air%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20air%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20air%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20air%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20air%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20air%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20air%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20air%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20speed">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20speed">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20speed">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20speed">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20speed">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20speed">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20speed">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20speed"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20speed"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20speed"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20speed"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20speed"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20speed"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20speed"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20cover">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20cover">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20cover">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20cover">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20cover">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20cover">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20humidity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20humidity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20humidity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20humidity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20humidity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20humidity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20humidity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20humidity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20humidity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20humidity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20humidity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20humidity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20humidity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20humidity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20cover">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20cover">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20cover">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20cover">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20cover">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20direction">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20direction">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20direction">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20direction">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20direction">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20direction">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20direction"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20direction"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20direction"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20direction"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20direction"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20direction"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/normalized%20difference%20vegetation%20index%20%28ndvi%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/normalized%20difference%20vegetation%20index%20%28ndvi%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/normalized%20difference%20vegetation%20index%20%28ndvi%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/normalized%20difference%20vegetation%20index%20%28ndvi%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/normalized%20difference%20vegetation%20index%20%28ndvi%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/normalized%20difference%20vegetation%20index%20%28ndvi%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/normalized%20difference%20vegetation%20index%20%28ndvi%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/normalized%20difference%20vegetation%20index%20%28ndvi%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/normalized%20difference%20vegetation%20index%20%28ndvi%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/normalized%20difference%20vegetation%20index%20%28ndvi%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20surface%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20surface%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20surface%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20surface%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20surface%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20surface%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20surface%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20surface%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20surface%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20surface%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/urbanization">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/urbanization">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/urbanization">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/urbanization">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/urbanization">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/urbanization"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/urbanization"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/urbanization"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/urbanization"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/urbanization"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20type">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20type">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20type">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20type">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20type">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20type"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20type"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20type"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20type"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20type"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20surface%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20surface%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20surface%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20surface%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20surface%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20surface%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20surface%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20surface%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20surface%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20surface%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20atmospheric%20pressure">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20atmospheric%20pressure">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20atmospheric%20pressure">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20atmospheric%20pressure">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20atmospheric%20pressure">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20atmospheric%20pressure"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20atmospheric%20pressure"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20atmospheric%20pressure"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20atmospheric%20pressure"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20atmospheric%20pressure"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/leaf%20area%20index%20%28lai%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/leaf%20area%20index%20%28lai%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/leaf%20area%20index%20%28lai%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/leaf%20area%20index%20%28lai%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/leaf%20area%20index%20%28lai%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/leaf%20area%20index%20%28lai%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/leaf%20area%20index%20%28lai%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/leaf%20area%20index%20%28lai%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/leaf%20area%20index%20%28lai%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/leaf%20area%20index%20%28lai%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20sheet%20extent">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20sheet%20extent">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20sheet%20extent">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20sheet%20extent">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20sheet%20extent"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20sheet%20extent"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20sheet%20extent"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20sheet%20extent"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20humidity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20humidity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20humidity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20humidity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20humidity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20humidity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20humidity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20humidity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20humidity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20humidity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/elevation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/elevation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/elevation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/elevation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/elevation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/elevation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/elevation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/elevation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/elevation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/elevation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/river%20flow%20observations">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/river%20flow%20observations">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/river%20flow%20observations">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/river%20flow%20observations">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/river%20flow%20observations"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/river%20flow%20observations"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/river%20flow%20observations"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/river%20flow%20observations"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20winds">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20winds">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20winds">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20winds">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20winds"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20winds"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20winds"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20winds"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20use">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20use">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20use">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20use">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20use"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20use"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20use"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20use"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/net%20primary%20production">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/net%20primary%20production">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/net%20primary%20production">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/net%20primary%20production"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/net%20primary%20production"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/net%20primary%20production"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20level">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20level">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20level">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20level">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20level"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20level"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20level"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20level"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%20cover%20extent">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%20cover%20extent">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%20cover%20extent">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%20cover%20extent">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%20cover%20extent">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%20cover%20extent"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%20cover%20extent"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%20cover%20extent"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%20cover%20extent"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%20cover%20extent"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/lake%2Freservoir%20levels%20and%20area">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/lake%2Freservoir%20levels%20and%20area">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/lake%2Freservoir%20levels%20and%20area"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/lake%2Freservoir%20levels%20and%20area"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/cultivation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/cultivation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/deforestation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/deforestation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20cover">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/cloud%20cover">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/cloud%20cover">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/cloud%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/cloud%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20topography">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20topography">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20topography">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20topography">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20topography"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20topography"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20topography"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20topography"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20composition">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20composition">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20composition"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20composition"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/fraction%20of%20photosynthetically%20active%20radiation%20%28fpar%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/fraction%20of%20photosynthetically%20active%20radiation%20%28fpar%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/fraction%20of%20photosynthetically%20active%20radiation%20%28fpar%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/fraction%20of%20photosynthetically%20active%20radiation%20%28fpar%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20type">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20type">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20type"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20type"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/global%20horizontal%20irradiation%20%28ghi%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/global%20horizontal%20irradiation%20%28ghi%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/groundwater">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/groundwater"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20particulate%20matter%20concentration%20%28fine%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20particulate%20matter%20concentration%20%28fine%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/gross%20primary%20productivity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/gross%20primary%20productivity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/cloud%20water%2Fice%20amounts">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/cloud%20water%2Fice%20amounts"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/evaporation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/evaporation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/evapotranspiration">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/evapotranspiration">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/evapotranspiration"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/evapotranspiration"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20ozone%20concentration">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20ozone%20concentration"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/biomass">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/biomass">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/biomass"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/biomass"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/burned%20area%2Ffires">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/burned%20area%2Ffires"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/desertification">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/desertification">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/desertification"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/desertification"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/enhanced%20vegetation%20index%20%28evi%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/enhanced%20vegetation%20index%20%28evi%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/enhanced%20vegetation%20index%20%28evi%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/enhanced%20vegetation%20index%20%28evi%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/enhanced%20vegetation%20index%20%28evi%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/enhanced%20vegetation%20index%20%28evi%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20sheet%20depth">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20sheet%20depth">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20sheet%20depth"/>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20sheet%20depth"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20sheet%20depth"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20adjusted%20vegetation%20index%20%28savi%29%2Bc29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20adjusted%20vegetation%20index%20%28savi%29%2Bc29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20adjusted%20vegetation%20index%20%28savi%29%2Bc29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20adjusted%20vegetation%20index%20%28savi%29%2Bc29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20adjusted%20vegetation%20index%20%28savi%29%2Bc29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20adjusted%20vegetation%20index%20%28savi%29%2Bc29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20run-off">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20run-off">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20run-off"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20run-off"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/column%20particulate%20matter%20concentration%20%28fine%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/column%20particulate%20matter%20concentration%20%28fine%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/floods">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/floods"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20particulate%20matter%20%28fine%29%20composition">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20particulate%20matter%20%28fine%29%20composition"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/bathymetry">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/bathymetry"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/photosynthetically%20active%20radiation%20%28par%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/photosynthetically%20active%20radiation%20%28par%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/photosynthetically%20active%20radiation%20%28par%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/photosynthetically%20active%20radiation%20%28par%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20quality%20%26%20composition%2C%20ph%20and%20salinity%2C%20dissolved%20oxygen%20content">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20quality%20%26%20composition%2C%20ph%20and%20salinity%2C%20dissolved%20oxygen%20content"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20particulate%20matter%20composition%20%28coarse%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20particulate%20matter%20composition%20%28coarse%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20carbon">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20carbon"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/fraction%20of%20absorbed%20photosynthetically%20active%20radiation%20%28fapar%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/fraction%20of%20absorbed%20photosynthetically%20active%20radiation%20%28fapar%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/fraction%20of%20absorbed%20photosynthetically%20active%20radiation%20%28fapar%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/fraction%20of%20absorbed%20photosynthetically%20active%20radiation%20%28fapar%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/biodiversity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/biodiversity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/biodiversity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/biodiversity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/biodiversity">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/biodiversity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/non-native%20species">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/non-native%20species"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/column%20ozone%20concentration">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/column%20ozone%20concentration"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/currents">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/currents"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20cap%20elevation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20cap%20elevation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20cap%20elevation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20cap%20elevation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20cap%20elevation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20cap%20elevation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20cap%20elevation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20cap%20elevation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20use">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20use">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20use"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20use"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/permafrost">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/permafrost"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20salinity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20salinity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20litter">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20litter"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/direct%20normal%20irradiation%20%28dni%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/direct%20normal%20irradiation%20%28dni%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/column%20particulate%20matter%20concentration%20%28coarse%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/column%20particulate%20matter%20concentration%20%28coarse%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/population">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/population"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/carbon%20%28stores%2C%20uptake%2C%20flux%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/carbon%20%28stores%2C%20uptake%2C%20flux%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/contaminants%2Fpollutants%20%28inorganic%2Forganic%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/contaminants%2Fpollutants%20%28inorganic%2Forganic%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/nutrients%20%28phosphorous%2C%20nitrogen%2C%20potassium%2C%20nitrates%2Csulfates%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/nutrients%20%28phosphorous%2C%20nitrogen%2C%20potassium%2C%20nitrates%2Csulfates%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/biodiversity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/nutrients%20%28phosphorous%2C%20nitrogen%2C%20potassium%2C%20nitrates%2Csulfates%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/biodiversity">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/nutrients%20%28phosphorous%2C%20nitrogen%2C%20potassium%2C%20nitrates%2Csulfates%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/slope%20angle">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/slope%20angle">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/slope%20angle">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/slope%20angle"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/slope%20angle"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/slope%20angle"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%20water%20equivalent%20%28swe%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%20water%20equivalent%20%28swe%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20bodies%20%28location%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20bodies%20%28location%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20bodies%20%28location%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20bodies%20%28location%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20management%20practices">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20management%20practices"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ice">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ice">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ice"/>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ice"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ice"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/column%20nitrogen%20dioxide%20concentration">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/column%20nitrogen%20dioxide%20concentration"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%20depth">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%20depth">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%20depth">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%20depth"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%20depth"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%20depth"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/cloud%20parameters%20%28other%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/cloud%20parameters%20%28other%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/cloud%20parameters%20%28other%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/cloud%20parameters%20%28other%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20structure">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20structure"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20ice%20cover">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20ice%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20deformation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20deformation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20deformation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20deformation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20radiation%20budget">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20radiation%20budget"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20thickness">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20thickness">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20thickness">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20thickness">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20thickness">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20thickness"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20thickness"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20thickness"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20thickness"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20thickness"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ecosystem%20function%2Fdynamics">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ecosystem%20function%2Fdynamics"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/species%20composition">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/biodiversity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/biodiversity">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/species%20composition"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/aerosol%20properties">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/aerosol%20properties"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20nitrogen%20dioxide%20concentration">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20nitrogen%20dioxide%20concentration"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20sulfur%20dioxide%20concentration">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20sulfur%20dioxide%20concentration"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/curvature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/curvature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/pore%20pressure">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/pore%20pressure"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/rock%20strength%2C%20permeability%2C%20spacing%2C%20orientation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/rock%20strength%2C%20permeability%2C%20spacing%2C%20orientation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/slip">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/slip">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/slip"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/slip"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/slope%20movement">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/slope%20movement"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/strain">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/strain"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/carbon%20dioxide%20concentration">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/carbon%20dioxide%20concentration"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ice%20depth">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ice%20depth">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ice%20depth">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ice%20depth">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ice%20depth"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ice%20depth"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ice%20depth"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ice%20depth"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/impervious%20surface%20extent">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/impervious%20surface%20extent">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/impervious%20surface%20extent"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/impervious%20surface%20extent"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20albedo">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20albedo">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20albedo">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20albedo">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20albedo">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20albedo">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20albedo"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20albedo"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20albedo"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20albedo"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20albedo"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20albedo"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/wave%20direction">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/wave%20direction"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/wave%20height">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/wave%20height"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/wave%20period">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/wave%20period"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vector%20population">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vector%20population"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/fuel%20load%2Fcharacteristics">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/fuel%20load%2Fcharacteristics"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/chlorophyll">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/chlorophyll"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/erosion%20%28reefs%2C%20sandbars%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/erosion%20%28reefs%2C%20sandbars%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/fish%20harvest%20intensity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/fish%20harvest%20intensity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20depth%20%28shallow%20near-shore%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20depth%20%28shallow%20near-shore%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/column%20sulfur%20dioxide%20concentration">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/column%20sulfur%20dioxide%20concentration"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/source%20of%20drinking%20water">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/source%20of%20drinking%20water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/hydrology">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/hydrology"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/methane%20concentration">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/methane%20concentration"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/phenology">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/biodiversity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/biodiversity">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/phenology"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/suspended%20particulates%2Fturbidity%2Fwater%20attenuation%20coefficient">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/suspended%20particulates%2Fturbidity%2Fwater%20attenuation%20coefficient"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20volatile%20organic%20compounds">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20volatile%20organic%20compounds"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/animal%20activity%20%28range%2C%20season%20length%2C%20migration%20patterns%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/biodiversity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/biodiversity">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/animal%20activity%20%28range%2C%20season%20length%2C%20migration%20patterns%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/aquatic%20ecosystem%20condition">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/aquatic%20ecosystem%20condition"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ecosystem%20demand%20for%20water">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ecosystem%20demand%20for%20water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/emissivity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/emissivity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/emissivity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/emissivity">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/emissivity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/emissivity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/emissivity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/emissivity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/outgoing%20longwave%20radiation%20%28top%20of%20atmosphere%20%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/outgoing%20longwave%20radiation%20%28top%20of%20atmosphere%20%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/thermokarst">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/thermokarst"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/geologic%20stratification">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/geologic%20stratification"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/carbon%20dioxide%20partial%20pressure">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/carbon%20dioxide%20partial%20pressure"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/carbon%20in%20subsurface%20ocean">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/carbon%20in%20subsurface%20ocean"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/coral%20reef%20classification%2Fmetabolism">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/coral%20reef%20classification%2Fmetabolism"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/crop%20emergence">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/crop%20emergence"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/crop%20yield">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/crop%20yield"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/density%20of%20animal%20hosts">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/density%20of%20animal%20hosts"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/field%20cover%20%28continuous%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/field%20cover%20%28continuous%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/field%20cover%20%28continuous%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/energy"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/field%20cover%20%28continuous%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/field%20cover%20%28continuous%29">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/field%20cover%20%28continuous%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/ecosystem">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/field%20cover%20%28continuous%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/energy">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/field%20cover%20%28continuous%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/field%20cover%20%28continuous%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/field%20cover%20%28continuous%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/gravity%20field">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/gravity%20field"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/inundated%20vegetation">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/inundated%20vegetation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/magnetic%20field">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/magnetic%20field"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/other%20long-lived%20ghgs">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/other%20long-lived%20ghgs"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/pathogen%20population%20dynamic">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/health">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/pathogen%20population%20dynamic"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20ice%20surface%20%28skin%29%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20ice%20surface%20%28skin%29%20temperature">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20ice%20surface%20%28skin%29%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/agriculture">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20ice%20surface%20%28skin%29%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20thaw">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/disasters"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/disasters">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20thaw"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/stratospheric%20ozone">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/stratospheric%20ozone"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20algal%20blooms">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20algal%20blooms"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20infiltration%2Fpercolation-land%20surface">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/climate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20infiltration%2Fpercolation-land%20surface">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20infiltration%2Fpercolation-land%20surface">
+		<skos:relatedMatch rdf:resource="http://eurogeoss.unizar.es/SBA/weather"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/climate">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20infiltration%2Fpercolation-land%20surface"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/water">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20infiltration%2Fpercolation-land%20surface"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eurogeoss.unizar.es/SBA/weather">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20infiltration%2Fpercolation-land%20surface"/>
+	</rdf:Description>
+</rdf:RDF>

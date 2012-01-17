@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dct="http://purl.org/dc/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:base="http://www.earthobservations.org/GEOSS/EO_Vocabulary/" xml:lang="en">
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/637"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/637">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/6570"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/6570">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20moisture">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/7874"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/7874">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20moisture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20air%20temperature">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/281"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/281">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20air%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20speed">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/9327"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/9327">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20speed"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20cover">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/4678"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/4678">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20cover">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/4612"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/4612">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20humidity">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/626"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/626">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20humidity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20cover">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/8908"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/8908">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20direction">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/9327"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/9327">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20wind%20direction"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20type">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/8925"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/8925">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20type"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20atmospheric%20pressure">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/6593"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/6593">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20atmospheric%20pressure"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20sheet%20extent">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/3673"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/3673">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20sheet%20extent"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20humidity">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/626"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/626">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20humidity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/river%20flow%20observations">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/7340"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/7340">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/river%20flow%20observations"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20winds">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/9327"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/9327">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20winds"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20use">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/4678"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/4678">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20use"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20temperature"/>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/8366"/>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20temperature">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/281"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/281">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20level">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/7513"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/7513">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20level"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/lake%2Freservoir%20levels%20and%20area">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/7138"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/7138">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/lake%2Freservoir%20levels%20and%20area"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/lake%2Freservoir%20levels%20and%20area"/>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/4594"/>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/lake%2Freservoir%20levels%20and%20area"/>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/12248"/>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/cultivation">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/1899"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/1899">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/cultivation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/deforestation">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/2036"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/2036">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/deforestation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/deforestation">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/3414"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/3414">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/deforestation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20cover">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/3406"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/3406">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/cloud%20cover">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/1491"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/1491">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/cloud%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20composition">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/7898"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/7898">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20composition"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20type">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/7898"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/7898">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20type"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/global%20horizontal%20irradiation%20%28ghi%29">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/4504"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/4504">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/global%20horizontal%20irradiation%20%28ghi%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/groundwater">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/13106"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/13106">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/groundwater"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20particulate%20matter%20concentration%20%28fine%29">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/633"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/633">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20particulate%20matter%20concentration%20%28fine%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/evaporation">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/3019"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/3019">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/evaporation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/evapotranspiration">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/3022"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/3022">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/evapotranspiration"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/biomass">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/883"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/883">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/biomass"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/desertification">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/2105"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/2105">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/desertification"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/enhanced%20vegetation%20index%20%28evi%29">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/10626"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/10626">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/enhanced%20vegetation%20index%20%28evi%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20adjusted%20vegetation%20index%20%28savi%29%2Bc29">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/10626"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/10626">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20adjusted%20vegetation%20index%20%28savi%29%2Bc29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20run-off">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/7340"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/7340">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20run-off"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20run-off">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/12122"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/12122">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20run-off"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20run-off">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/8225"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/8225">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20run-off"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20particulate%20matter%20%28fine%29%20composition">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/633"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/633">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20particulate%20matter%20%28fine%29%20composition"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20quality%20%26%20composition%2C%20ph%20and%20salinity%2C%20dissolved%20oxygen%20content">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/9214"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/9214">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20quality%20%26%20composition%2C%20ph%20and%20salinity%2C%20dissolved%20oxygen%20content"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20quality%20%26%20composition%2C%20ph%20and%20salinity%2C%20dissolved%20oxygen%20content">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/11233"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/11233">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20quality%20%26%20composition%2C%20ph%20and%20salinity%2C%20dissolved%20oxygen%20content"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20quality%20%26%20composition%2C%20ph%20and%20salinity%2C%20dissolved%20oxygen%20content">
+		<skos:narrowMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/12226"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/12226">
+		<skos:broadMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20quality%20%26%20composition%2C%20ph%20and%20salinity%2C%20dissolved%20oxygen%20content"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20quality%20%26%20composition%2C%20ph%20and%20salinity%2C%20dissolved%20oxygen%20content">
+		<skos:narrowMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/11788"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/11788">
+		<skos:broadMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20quality%20%26%20composition%2C%20ph%20and%20salinity%2C%20dissolved%20oxygen%20content"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20quality%20%26%20composition%2C%20ph%20and%20salinity%2C%20dissolved%20oxygen%20content">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/5986"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/5986">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20quality%20%26%20composition%2C%20ph%20and%20salinity%2C%20dissolved%20oxygen%20content"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20particulate%20matter%20composition%20%28coarse%29">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/633"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/633">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20particulate%20matter%20composition%20%28coarse%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20carbon">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/1160"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/1160">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20carbon"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/biodiversity">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/827"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/827">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/biodiversity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/non-native%20species">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/3048"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/3048">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/non-native%20species"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/currents">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/7502"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/7502">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/currents"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20use">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/9176"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/9176">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20use"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20use">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/9180"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/9180">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20use"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20litter">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/4857"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/4857">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20litter"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/direct%20normal%20irradiation%20%28dni%29">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/4504"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/4504">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/direct%20normal%20irradiation%20%28dni%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/carbon%20%28stores%2C%20uptake%2C%20flux%29">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/1160"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/1160">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/carbon%20%28stores%2C%20uptake%2C%20flux%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/nutrients%20%28phosphorous%2C%20nitrogen%2C%20potassium%2C%20nitrates%2Csulfates%29"/>
+	<rdf:Description rdf:about="http://dias.csis.u-tokyo.ac.jp/dict/gemet/index.php/Nutrient"/>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20management%20practices">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/3425"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/3425">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20management%20practices"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20management%20practices">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/11237"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/11237">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20management%20practices"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ice">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/4131"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/4131">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ice"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/column%20nitrogen%20dioxide%20concentration">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/5608"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/5608">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/column%20nitrogen%20dioxide%20concentration"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20thickness">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/7850"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/7850">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20thickness"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/aerosol%20properties">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/157"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/157">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/aerosol%20properties"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20nitrogen%20dioxide%20concentration">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/5608"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/5608">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20nitrogen%20dioxide%20concentration"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/pore%20pressure">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/6593"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/6593">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/pore%20pressure"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/rock%20strength%2C%20permeability%2C%20spacing%2C%20orientation">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/6120"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/6120">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/rock%20strength%2C%20permeability%2C%20spacing%2C%20orientation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/carbon%20dioxide%20concentration">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/1168"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/1168">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/carbon%20dioxide%20concentration"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/chlorophyll">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/1391"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/1391">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/chlorophyll"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/erosion%20%28reefs%2C%20sandbars%29">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/1519"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/1519">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/erosion%20%28reefs%2C%20sandbars%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/erosion%20%28reefs%2C%20sandbars%29">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/9168"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/9168">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/erosion%20%28reefs%2C%20sandbars%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/hydrology">
+		<skos:exactMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/4118"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/4118">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/hydrology"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/methane%20concentration">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/5199"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/5199">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/methane%20concentration"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/stand%20density%2Fheight%2Fvolume">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/11116"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/11116">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/stand%20density%2Fheight%2Fvolume"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/suspended%20particulates%2Fturbidity%2Fwater%20attenuation%20coefficient">
+		<skos:narrowMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/8711"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/8711">
+		<skos:broadMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/suspended%20particulates%2Fturbidity%2Fwater%20attenuation%20coefficient"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/animal%20activity%20%28range%2C%20season%20length%2C%20migration%20patterns%29">
+		<skos:narrowMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/5237"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/5237">
+		<skos:broadMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/animal%20activity%20%28range%2C%20season%20length%2C%20migration%20patterns%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/aquatic%20ecosystem%20condition">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/505"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/505">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/aquatic%20ecosystem%20condition"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/aquatic%20ecosystem%20condition">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/3489"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/3489">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/aquatic%20ecosystem%20condition"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/geologic%20stratification">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/8125"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/8125">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/geologic%20stratification"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/carbon%20dioxide%20partial%20pressure">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/6593"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/6593">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/carbon%20dioxide%20partial%20pressure"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/carbon%20in%20subsurface%20ocean">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/1160"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/1160">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/carbon%20in%20subsurface%20ocean"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/density%20of%20animal%20hosts">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/11116"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/11116">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/density%20of%20animal%20hosts"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/field%20cover%20%28continuous%29">
+		<skos:relatedMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/4612"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/4612">
+		<skos:relatedMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/field%20cover%20%28continuous%29"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20algal%20blooms">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/303"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/303">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20algal%20blooms"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20infiltration%2Fpercolation-land%20surface">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/4291"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/4291">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20infiltration%2Fpercolation-land%20surface"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20infiltration%2Fpercolation-land%20surface">
+		<skos:closeMatch rdf:resource="http://www.eionet.europa.eu/gemet/concept/12098"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.eionet.europa.eu/gemet/concept/12098">
+		<skos:closeMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20infiltration%2Fpercolation-land%20surface"/>
+	</rdf:Description>
+</rdf:RDF>

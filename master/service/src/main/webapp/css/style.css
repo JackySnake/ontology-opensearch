@@ -1,0 +1,89 @@
+body, html, td, th, p {
+    font-family: arial, "Tahoma", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+body {
+    padding: 20px;
+    margin: 0;
+}
+
+table, caption {
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+}
+
+td {
+    vertical-align: top;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', arial;
+    color: #C06528;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 15px;
+    color: #C06528;
+    white-space: nowrap;
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+h3 {
+    color: #3c9e37;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #C06528;
+}
+
+a:hover {
+    color: #9F4B13;
+}
+
+ul {
+    margin-left: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#rightRed h2 {
+    color: #FFF;
+}
+
+#rightRed a, #rightRed a:visited, #rightRed a:hover {
+    color: #FFF;
+}
+
+#rightRed .alert {
+    color: red;
+}
+
+#tableNews {
+    width: 530px;
+}
+
+#footer {
+    margin-left: 20px;
+    font-size: 10px;
+    color: #333333;
+}
+
+#footer a {
+    color: #333333;
+    text-decoration: none;
+}
+

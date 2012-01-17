@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dct="http://purl.org/dc/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:base="http://www.earthobservations.org/GEOSS/EO_Vocabulary/" xml:lang="en">
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/atmosphere">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#atmosphere"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#atmosphere">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/atmosphere"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/agriculture">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#agriculture">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/agriculture"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20surface">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#land_surface"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#land_surface">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20surface"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/oceans">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#oceans"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#oceans">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/oceans"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/human%20dimensions">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#human_dimensions"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#human_dimensions">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/human%20dimensions"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/biosphere">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#biosphere"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#biosphere">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/biosphere"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/terrestrial%20hydrosphere">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#terrestrial_hydrosphere"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#terrestrial_hydrosphere">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/terrestrial%20hydrosphere"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/cryosphere">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#cryosphere"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#cryosphere">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/cryosphere"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/paleoclimate">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#paleoclimate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#paleoclimate">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/paleoclimate"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/solid%20earth">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#solid_earth"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#solid_earth">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/solid%20earth"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/biological%20classification">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#biological_classification"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#biological_classification">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/biological%20classification"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soils">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#soils"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#soils">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/soils"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/atmospheric%20temperature">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#atmospheric_temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#atmospheric_temperature">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/atmospheric%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/atmospheric%20winds">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#atmospheric_winds"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#atmospheric_winds">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/atmospheric%20winds"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20winds">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#ocean_winds"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#ocean_winds">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20winds"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20use%2Fland%20cover">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#land_use-land_cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#land_use-land_cover">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20use%2Fland%20cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/atmospheric%20water%20vapor">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#atmospheric_water_vapor"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#atmospheric_water_vapor">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/atmospheric%20water%20vapor"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#vegetation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#vegetation">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20temperature">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#ocean_temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#ocean_temperature">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/environmental%20impacts">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#environmental_impacts"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#environmental_impacts">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/environmental%20impacts"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20temperature">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#land_temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#land_temperature">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20temperature"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/atmospheric%20pressure">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#atmospheric_pressure"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#atmospheric_pressure">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/atmospheric%20pressure"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/frozen%20ground">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#frozen_ground"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#frozen_ground">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/frozen%20ground"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20ice">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#sea_ice"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#sea_ice">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20ice"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glaciers%2Fice%20sheets">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#glaciers-ice_sheets"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#glaciers-ice_sheets">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/glaciers%2Fice%20sheets"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%2Fice">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#snow-ice"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#snow-ice">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%2Fice"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/topography">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#topography"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#topography">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/topography"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20water">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#surface_water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#surface_water">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ecological%20dynamics">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#ecological_dynamics"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#ecological_dynamics">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ecological%20dynamics"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/coastal%20processes">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#coastal_processes"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#coastal_processes">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/coastal%20processes"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%2Flake%20records">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#ocean-lake_records"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#ocean-lake_records">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%2Flake%20records"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/agricultural%20engineering">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#agricultural_engineering"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#agricultural_engineering">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/agricultural%20engineering"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/habitat%20conversion%2Ffragmentation">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#habitat_conversion-fragmentation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#habitat_conversion-fragmentation">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/habitat%20conversion%2Ffragmentation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/terrestrial%20ecosystems">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#terrestrial_ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#terrestrial_ecosystems">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/terrestrial%20ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/aerosols">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#aerosols"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#aerosols">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/aerosols"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/bathymetry%2Fseafloor%20topography">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#bathymetry-seafloor_topography"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#bathymetry-seafloor_topography">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/bathymetry%2Fseafloor%20topography"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/agricultural%20plant%20science">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#agricultural_plant_science"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#agricultural_plant_science">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/agricultural%20plant%20science"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20radiative%20properties">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#surface_radiative_properties"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#surface_radiative_properties">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20radiative%20properties"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/atmospheric%20radiation">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#atmospheric_radiation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#atmospheric_radiation">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/atmospheric%20radiation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20quality%2Fwater%20chemistry">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#water_quality-water_chemistry"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#water_quality-water_chemistry">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20quality%2Fwater%20chemistry"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ice%20core%20records">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#ice_core_records"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#ice_core_records">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ice%20core%20records"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ecological%20dynamics">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#ecological_dynamics"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#ecological_dynamics">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ecological%20dynamics"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/clouds">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#clouds"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#clouds">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/clouds"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20heat%20budget">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#ocean_heat_budget"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#ocean_heat_budget">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20heat%20budget"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/atmospheric%20chemistry">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#atmospheric_chemistry"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#atmospheric_chemistry">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/atmospheric%20chemistry"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/natural%20hazards">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#natural_hazards"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#natural_hazards">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/natural%20hazards"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20optics">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#ocean_optics"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#ocean_optics">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20optics"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20quality">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#water_quality"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#water_quality">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20quality"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20chemistry">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#ocean_chemistry"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#ocean_chemistry">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20chemistry"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/salinity%2Fdensity">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#salinity-density"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#salinity-density">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/salinity%2Fdensity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/aquatic%20ecosystems">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#aquatic_ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#aquatic_ecosystems">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/aquatic%20ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/fungi">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#fungi"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#fungi">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/fungi"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20circulation">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#ocean_circulation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#ocean_circulation">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20circulation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/erosion%2Fsedimentation">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#erosion-sedimentation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#erosion-sedimentation">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/erosion%2Fsedimentation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20surface%20topography">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#sea_surface_topography"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#sea_surface_topography">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20surface%20topography"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/aquatic%20ecosystems">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#aquatic_ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#aquatic_ecosystems">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/aquatic%20ecosystems"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20science">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#forest_science"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#forest_science">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20science"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/geodetics%2Fgravity">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#geodetics-gravity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#geodetics-gravity">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/geodetics%2Fgravity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/geomorphology">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#geomorphology"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#geomorphology">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/geomorphology"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/marine%20sediments">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#marine_sediments"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#marine_sediments">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/marine%20sediments"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/rocks%2Fminerals%C2%A0">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#rocks-minerals%C2%A0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#rocks-minerals%C2%A0">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/rocks%2Fminerals%C2%A0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/seismology">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#seismology"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#seismology">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/seismology"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/tectonics%C2%A0">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#tectonics%C2%A0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#tectonics%C2%A0">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/tectonics%C2%A0"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20waves">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#ocean_waves"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#ocean_waves">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20waves"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/boundaries">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#boundaries"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#boundaries">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/boundaries"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/natural%20resources">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#natural_resources"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#natural_resources">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/natural%20resources"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/human%20health">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#human_health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#human_health">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/human%20health"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%C2%A0quality%2Fwater%20chemistry">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#water%C2%A0quality-water_chemistry"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#water%C2%A0quality-water_chemistry">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%C2%A0quality%2Fwater%20chemistry"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/air%20quality">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#air_quality"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#air_quality">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/air%20quality"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/animals%2Fvertebrates">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#animals-vertebrates"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#animals-vertebrates">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/animals%2Fvertebrates"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/animal%20science">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#animal_science"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#animal_science">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/animal%20science"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/aquatic%20sciences">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#aquatic_sciences"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#aquatic_sciences">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/aquatic%20sciences"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/agricultural%20aquatic%20sciences">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#agricultural_aquatic_sciences"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#agricultural_aquatic_sciences">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/agricultural%20aquatic%20sciences"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/plant%20commodities">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#plant_commodities"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#plant_commodities">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/plant%20commodities"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20use%2Fland%C2%A0cover">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#land_use-land%C2%A0cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#land_use-land%C2%A0cover">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20use%2Fland%C2%A0cover"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/marine%20geophysics">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#marine_geophysics"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#marine_geophysics">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/marine%20geophysics"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/attitudes%2Cpreferences%2Cbehavior">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#attitudes%2Cpreferences%2Cbehavior"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#attitudes%2Cpreferences%2Cbehavior">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/attitudes%2Cpreferences%2Cbehavior"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/geomagnetism">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#geomagnetism"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#geomagnetism">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/geomagnetism"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/bacteria%2Farchaea">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#bacteria-archaea"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#bacteria-archaea">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/bacteria%2Farchaea"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/plants">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#plants"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#plants">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/plants"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ground%20water">
+		<skos:exactMatch rdf:resource="http://gcmd.gsfc.nasa.gov/skos#ground_water"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://gcmd.gsfc.nasa.gov/skos#ground_water">
+		<skos:exactMatch rdf:resource="http://www.earthobservations.org/GEOSS/EO_Vocabulary/ground%20water"/>
+	</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns="http://oteg.esa.int/infodomain-v1.0.owl#">
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Oil_pollution">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Offshore_environment"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Coastal_environment"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Marine_pollution"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Wind_speed">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Wind"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Turbidity">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Water_index"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Coastal_environment"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Marine_pollution"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Soil">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Agriculture"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Climate">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Land_monitoring"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Agriculture">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Land_monitoring"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Offshore_environment">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Marine_environment"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Land_monitoring">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Information_Domain"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Land_use">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Urban_and_industry"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Agriculture"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_pollution_by_nitrates">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Ground_water"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Ocean_level">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Coastal_environment"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Offshore_environment"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Land_surface_temperature">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Global_temperature"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Agriculture"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Algal_bloom">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Eutrophication"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_pollution_by_triclosan">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Surface_water"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Wave_climate">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Coastal_environment"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Offshore_environment"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Ocean_surface_monitoring">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Offshore_environment"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Marine_pollution">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Marine_environment"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Land_cover">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Topography"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Land_use"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Sea_surface_temperature">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Water_temperature"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Wave_climate"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Ocean_surface_monitoring"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Ice_change_detection">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Climate_change"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Sea_ice"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Eutrophication">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Marine_pollution"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Ship_monitoring">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Operational_oceanography"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Coastal_environment"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Topography">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Land_monitoring"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Wind_direction">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Wind"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Yellow_substance">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Coastal_environment"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Algal_bloom"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_salinity">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Water_index"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Wind">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Meteorological_data"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_index">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Water_quality_monitoring"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Operational_oceanography"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Ice_navigational_aid">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Sea_ice"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Wind_stress">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Wind"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Climate_change">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Climate"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_quality_monitoring">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Coastal_environment"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Global_temperature">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Weather"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Climate_change"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Sea_ice">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Coastal_environment"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Operational_oceanography"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Wind_gust">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Wind"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Tide_monitoring">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Operational_oceanography"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Ocean_level"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Ocean_surface_monitoring"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Urban_and_industry">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Land_monitoring"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_temperature">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Water_index"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Wave_climate"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Ocean_surface_monitoring"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Ice_classification">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Sea_ice"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_pollution_by_metals">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Ground_water"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Phytoplankton">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Algal_bloom"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Surface_water">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Water_management"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Topography"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Agriculture"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Weather">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Climate"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Coastal_environment">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Marine_environment"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Cloud">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Meteorological_data"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Agriculture"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Meteorological_data">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Operational_oceanography"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Wave_climate"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Weather"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Ice_thickness_classification">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Sea_ice"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Ocean_colour">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Suspended_particulate_material"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Phytoplankton"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Yellow_substance"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_pressure">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Water_index"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Wave_climate"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Ocean_surface_monitoring"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_pollution_by_organic_micropollutants">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Ground_water"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Greenhouse_gas_concentration">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Climate_change"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Suspended_particulate_material">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Water_index"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Ground_water">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Water_management"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Soil"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Marine_environment">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Information_Domain"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_use">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Water_management"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Agriculture"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_pollution_by_oxygen_consuming_substances">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Surface_water"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Operational_oceanography">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Marine_environment"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_pollution_by_hormones">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Surface_water"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Digital_elevation_model">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Topography"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Water_management">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Land_monitoring"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Forest">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Land_cover"/>
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Climate_change"/>
+  </skos:Concept>
+  <skos:Concept xmlns="" rdf:about="http://oteg.esa.int/infodomain-v1.0.owl#Biochemical_oxygen_demand">
+    <skos:narrower rdf:resource="http://oteg.esa.int/infodomain-v1.0.owl#Water_pollution_by_oxygen_consuming_substances"/>
+  </skos:Concept>
+</rdf:RDF>
