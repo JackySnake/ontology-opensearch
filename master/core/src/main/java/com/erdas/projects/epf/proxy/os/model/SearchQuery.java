@@ -30,6 +30,8 @@ public class SearchQuery {
 
     private String category = null;
 
+    private String box = null;
+
     public String getSearchTerm() {
         return searchTerm;
     }
@@ -76,5 +78,13 @@ public class SearchQuery {
 
     public void setContextURL(String contextURL) {
         this.contextURL = contextURL;
+    }
+
+    public String getBox() {
+        return box;
+    }
+
+    public void setBox(String box) {
+        this.box = box;
     }
 }

@@ -10,6 +10,7 @@ import com.erdas.projects.epf.proxy.os.model.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -33,9 +34,23 @@ public class OpenSearchServlet extends HttpServlet {
 
     protected Logger logger = LoggerFactory.getLogger(OpenSearchServlet.class);
 
+    protected OpenSearchService service;
+
+    @Override
+    public void init(ServletConfig config) throws ServletException {
+        super.init(config);
+        String serviceType = config.getInitParameter("serviceType");
+        if ((serviceType!= null) && (serviceType.equals("ISOAP"))) {
+            String url = config.getInitParameter("url");          
+            service = new ISOAPSearchService(url);
+        } else {
+            service = new SolrSearchService();
+        }
+    }
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        OpenSearchService service = new SolrSearchService();
+
         SearchQuery query = new SearchQuery();
 
         String requestURI = req.getRequestURI();
@@ -95,6 +110,11 @@ public class OpenSearchServlet extends HttpServlet {
             if (maxResultsAsString != null && !maxResultsAsString.isEmpty()) {
                 int maxResults = Integer.parseInt(maxResultsAsString);
                 query.setMaxResults(maxResults);
+            }
+
+            String boxAsString= req.getParameter("box");
+            if (boxAsString != null && !boxAsString.isEmpty()) {
+                query.setBox(boxAsString);
             }
 
             try {

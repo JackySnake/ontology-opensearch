@@ -84,12 +84,40 @@ public class SolrSearchService implements OpenSearchService, IndexerService {
         }
 
         String searchTerm = query.getSearchTerm();
+        searchTerm = searchTerm.trim();
+        if ((searchTerm == null) || (searchTerm.length() == 0)) {
+            throw new OpenSearchException("The search term is mandatory");
+        }
+
+        String[] tokens = searchTerm.split(" ");
+        StringBuffer processedTerm = new StringBuffer();
+        for (int i = 0; i < tokens.length; i++) {
+            String token = tokens[i];
+            String replacedToken = token;
+            if (token.startsWith("http://") || token.startsWith("urn:")) {
+                replacedToken = "\"" + token + "\"";
+                logger.info("Replace HTTP or URN token {} by {}",token,replacedToken);
+            }
+            replacedToken = replacedToken.replace(":","\\:");
+            processedTerm.append(replacedToken);
+            if (i < tokens.length-1) {
+                processedTerm.append(" ");
+            }
+        }
+        searchTerm = processedTerm.toString();
+
         StringBuffer searchQuery = new StringBuffer();
         if (OpenSearchConstants.FRENCH_LANGUAGE.equals(query.getLanguage())) {
+            searchQuery.append("name_fr:(");
+            searchQuery.append(searchTerm);
+            searchQuery.append(") ");
             searchQuery.append("text_fr:(");
             searchQuery.append(searchTerm);
             searchQuery.append(")");
         } else {
+            searchQuery.append("name:(");
+            searchQuery.append(searchTerm);
+            searchQuery.append(") ");
             searchQuery.append("text:(");
             searchQuery.append(searchTerm);
             searchQuery.append(")");
